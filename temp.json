@@ -1,0 +1,4193 @@
+{
+  "airport": {
+    "3": [
+      "air",
+      "rap",
+      "pro",
+      "rat",
+      "art",
+      "top",
+      "opt",
+      "pot",
+      "pit",
+      "tip",
+      "pat",
+      "tap"
+    ],
+    "4": [
+      "pair",
+      "riot",
+      "trip",
+      "port",
+      "trap",
+      "part"
+    ],
+    "5": [
+      "prior",
+      "ratio"
+    ],
+    "6": [
+      "parrot"
+    ]
+  },
+  "auction": {
+    "3": [
+      "act",
+      "cat",
+      "cut",
+      "out",
+      "con",
+      "can",
+      "tin",
+      "nut",
+      "not",
+      "ton",
+      "tan",
+      "ant"
+    ],
+    "4": [
+      "coat",
+      "auto",
+      "coin",
+      "unit",
+      "into",
+      "aunt",
+      "tuna",
+      "anti"
+    ],
+    "5": [
+      "count"
+    ],
+    "6": [
+      "action"
+    ]
+  },
+  "battery": {
+    "3": [
+      "bat",
+      "bet",
+      "tea",
+      "eat",
+      "ate",
+      "rat",
+      "art",
+      "bar",
+      "bra",
+      "are",
+      "ear",
+      "yet",
+      "ray",
+      "try",
+      "bay",
+      "bye"
+    ],
+    "4": [
+      "beat",
+      "rate",
+      "tear",
+      "bare",
+      "bear",
+      "tray",
+      "tyre",
+      "year"
+    ],
+    "5": [
+      "treat"
+    ],
+    "6": [
+      "betray",
+      "treaty"
+    ]
+  },
+  "beneath": {
+    "3": [
+      "bee",
+      "ten",
+      "net",
+      "bet",
+      "tea",
+      "ate",
+      "eat",
+      "bat",
+      "ant",
+      "tan",
+      "the",
+      "hat"
+    ],
+    "4": [
+      "been",
+      "bean",
+      "teen",
+      "bent",
+      "beat",
+      "neat",
+      "then",
+      "than",
+      "heat",
+      "hate",
+      "bath",
+      "thee"
+    ],
+    "5": [
+      "eaten",
+      "bathe"
+    ],
+    "6": [
+      "beaten"
+    ]
+  },
+  "breadth": {
+    "3": [
+      "bar",
+      "bra",
+      "ear",
+      "are",
+      "bed",
+      "bad",
+      "red",
+      "art",
+      "rat",
+      "tea",
+      "ate",
+      "eat",
+      "bet",
+      "bat",
+      "her",
+      "the",
+      "had",
+      "hat"
+    ],
+    "4": [
+      "bare",
+      "bear",
+      "dare",
+      "dear",
+      "read",
+      "rate",
+      "tear",
+      "beat",
+      "debt",
+      "date",
+      "herd",
+      "herb",
+      "hard",
+      "bath",
+      "head",
+      "hate",
+      "heat",
+      "hear"
+    ],
+    "5": [
+      "bread",
+      "beard",
+      "trade",
+      "death",
+      "bathe",
+      "earth",
+      "heart"
+    ],
+    "6": [
+      "breath",
+      "hatred",
+      "thread"
+    ]
+  },
+  "breathe": {
+    "3": [
+      "bar",
+      "bra",
+      "ear",
+      "are",
+      "tea",
+      "ate",
+      "eat",
+      "bet",
+      "bat",
+      "art",
+      "rat",
+      "her",
+      "hat",
+      "the",
+      "bee"
+    ],
+    "4": [
+      "bare",
+      "bear",
+      "beat",
+      "rate",
+      "tear",
+      "hear",
+      "herb",
+      "bath",
+      "hate",
+      "heat",
+      "tree",
+      "here",
+      "thee",
+      "beer"
+    ],
+    "5": [
+      "bathe",
+      "heart",
+      "earth",
+      "three",
+      "there"
+    ],
+    "6": [
+      "breath"
+    ]
+  },
+  "brother": {
+    "3": [
+      "rob",
+      "hot",
+      "toe",
+      "bet",
+      "the",
+      "her"
+    ],
+    "4": [
+      "both",
+      "tore",
+      "bore",
+      "robe",
+      "herb",
+      "hero"
+    ],
+    "5": [
+      "other"
+    ],
+    "6": [
+      "bother"
+    ]
+  },
+  "capable": {
+    "3": [
+      "cap",
+      "cab",
+      "lap",
+      "ace"
+    ],
+    "4": [
+      "clap",
+      "pale",
+      "leap",
+      "plea",
+      "able",
+      "cape",
+      "pace",
+      "lace"
+    ],
+    "5": [
+      "place",
+      "cable"
+    ],
+    "6": [
+      "palace"
+    ]
+  },
+  "caption": {
+    "3": [
+      "cap",
+      "act",
+      "cat",
+      "tap",
+      "pat",
+      "pit",
+      "tip",
+      "opt",
+      "pot",
+      "top",
+      "pin",
+      "nap",
+      "pan",
+      "can",
+      "con",
+      "tin",
+      "tan",
+      "ant",
+      "not",
+      "ton"
+    ],
+    "4": [
+      "coat",
+      "pain",
+      "coin",
+      "anti",
+      "into",
+      "pint"
+    ],
+    "5": [
+      "topic",
+      "piano",
+      "panic",
+      "point",
+      "paint"
+    ],
+    "6": [
+      "action"
+    ]
+  },
+  "capture": {
+    "3": [
+      "cap",
+      "act",
+      "cat",
+      "tap",
+      "pat",
+      "put",
+      "cup",
+      "cut",
+      "rap",
+      "art",
+      "rat",
+      "car",
+      "ear",
+      "are",
+      "per",
+      "ace",
+      "ate",
+      "tea",
+      "eat",
+      "pet"
+    ],
+    "4": [
+      "part",
+      "trap",
+      "cart",
+      "crap",
+      "rape",
+      "pear",
+      "pure",
+      "cape",
+      "pace",
+      "care",
+      "race",
+      "cure",
+      "rate",
+      "tear",
+      "cute",
+      "tape"
+    ],
+    "5": [
+      "acute",
+      "react",
+      "trace",
+      "erupt"
+    ],
+    "6": [
+      "carpet"
+    ]
+  },
+  "cashier": {
+    "3": [
+      "has",
+      "ash",
+      "his",
+      "sea",
+      "she",
+      "ace",
+      "ice",
+      "air",
+      "sir",
+      "are",
+      "ear",
+      "car",
+      "her"
+    ],
+    "4": [
+      "cash",
+      "each",
+      "case",
+      "rise",
+      "scar",
+      "race",
+      "care",
+      "rice",
+      "hair",
+      "hear",
+      "hire",
+      "heir",
+      "rich",
+      "hers"
+    ],
+    "5": [
+      "chase",
+      "raise",
+      "scare",
+      "chair",
+      "reach",
+      "share",
+      "crash"
+    ],
+    "6": [
+      "search"
+    ]
+  },
+  "caution": {
+    "3": [
+      "act",
+      "cat",
+      "cut",
+      "out",
+      "can",
+      "con",
+      "tin",
+      "tan",
+      "ant",
+      "not",
+      "ton",
+      "nut"
+    ],
+    "4": [
+      "auto",
+      "coat",
+      "coin",
+      "anti",
+      "into",
+      "unit",
+      "aunt",
+      "tuna"
+    ],
+    "5": [
+      "count"
+    ],
+    "6": [
+      "action"
+    ]
+  },
+  "certain": {
+    "3": [
+      "art",
+      "rat",
+      "car",
+      "cat",
+      "act",
+      "ate",
+      "eat",
+      "tea",
+      "ace",
+      "are",
+      "ear",
+      "tie",
+      "ice",
+      "air",
+      "ran",
+      "can",
+      "ant",
+      "tan",
+      "ten",
+      "net",
+      "tin"
+    ],
+    "4": [
+      "cart",
+      "race",
+      "care",
+      "tear",
+      "rate",
+      "tire",
+      "rice",
+      "near",
+      "earn",
+      "rain",
+      "cane",
+      "nice",
+      "neat",
+      "anti",
+      "cent",
+      "rent"
+    ],
+    "5": [
+      "trace",
+      "react",
+      "crane",
+      "nicer",
+      "train"
+    ],
+    "6": [
+      "retain"
+    ]
+  },
+  "chapter": {
+    "3": [
+      "cap",
+      "tap",
+      "pat",
+      "cat",
+      "act",
+      "hat",
+      "ace",
+      "pet",
+      "eat",
+      "ate",
+      "tea",
+      "the",
+      "rat",
+      "art",
+      "her",
+      "ear",
+      "are",
+      "car",
+      "per",
+      "rap"
+    ],
+    "4": [
+      "chap",
+      "chat",
+      "path",
+      "heap",
+      "cape",
+      "pace",
+      "each",
+      "tape",
+      "heat",
+      "hate",
+      "hear",
+      "rate",
+      "tear",
+      "cart",
+      "care",
+      "race",
+      "trap",
+      "part",
+      "pear",
+      "rape",
+      "crap"
+    ],
+    "5": [
+      "patch",
+      "peach",
+      "cheap",
+      "cheat",
+      "teach",
+      "heart",
+      "earth",
+      "chart",
+      "reach",
+      "trace",
+      "react"
+    ],
+    "6": [
+      "carpet"
+    ]
+  },
+  "clarify": {
+    "3": [
+      "car",
+      "air",
+      "far",
+      "fir",
+      "lay",
+      "fly",
+      "fry",
+      "cry",
+      "ray"
+    ],
+    "4": [
+      "rail",
+      "liar",
+      "calf",
+      "fair",
+      "fail",
+      "clay"
+    ],
+    "5": [
+      "fairy"
+    ],
+    "6": [
+      "fairly"
+    ]
+  },
+  "cleaner": {
+    "3": [
+      "ace",
+      "can",
+      "ran",
+      "ear",
+      "are",
+      "car"
+    ],
+    "4": [
+      "lace",
+      "cane",
+      "lane",
+      "lean",
+      "real",
+      "earl",
+      "near",
+      "earn",
+      "care",
+      "race"
+    ],
+    "5": [
+      "clean",
+      "learn",
+      "clear",
+      "crane"
+    ],
+    "6": [
+      "cereal"
+    ]
+  },
+  "clearly": {
+    "3": [
+      "ace",
+      "are",
+      "ear",
+      "car",
+      "all",
+      "cry",
+      "ray",
+      "lay"
+    ],
+    "4": [
+      "lace",
+      "race",
+      "care",
+      "real",
+      "earl",
+      "call",
+      "cell",
+      "rely",
+      "yell",
+      "ally",
+      "clay",
+      "year"
+    ],
+    "5": [
+      "clear",
+      "rally",
+      "early",
+      "alley"
+    ],
+    "6": [
+      "recall",
+      "caller",
+      "cellar",
+      "really"
+    ]
+  },
+  "climate": {
+    "3": [
+      "aim",
+      "lit",
+      "act",
+      "cat",
+      "lie",
+      "let",
+      "tie",
+      "eat",
+      "ate",
+      "tea",
+      "ice",
+      "ace"
+    ],
+    "4": [
+      "calm",
+      "mail",
+      "tail",
+      "tile",
+      "late",
+      "tale",
+      "lace",
+      "male",
+      "meal",
+      "melt",
+      "meat",
+      "team",
+      "mate",
+      "tame",
+      "came",
+      "time",
+      "item",
+      "mile"
+    ],
+    "5": [
+      "claim",
+      "metal",
+      "camel",
+      "email"
+    ],
+    "6": [
+      "malice"
+    ]
+  },
+  "closest": {
+    "3": [
+      "let",
+      "toe",
+      "lot",
+      "set"
+    ],
+    "4": [
+      "sole",
+      "lose",
+      "loss",
+      "less",
+      "lost",
+      "lots",
+      "cost",
+      "toss"
+    ],
+    "5": [
+      "close",
+      "stole",
+      "costs"
+    ],
+    "6": [
+      "closet"
+    ]
+  },
+  "costume": {
+    "3": [
+      "cut",
+      "out",
+      "sue",
+      "use",
+      "toe",
+      "set"
+    ],
+    "4": [
+      "cost",
+      "most",
+      "must",
+      "some",
+      "muse",
+      "come",
+      "mute",
+      "cute",
+      "stem"
+    ],
+    "5": [
+      "scout",
+      "mouse"
+    ],
+    "6": [
+      "custom"
+    ]
+  },
+  "country": {
+    "3": [
+      "con",
+      "nut",
+      "cut",
+      "ton",
+      "not",
+      "out",
+      "our",
+      "nor",
+      "run",
+      "toy",
+      "you",
+      "try",
+      "cry"
+    ],
+    "4": [
+      "corn",
+      "turn",
+      "torn",
+      "tour",
+      "your"
+    ],
+    "5": [
+      "count",
+      "court"
+    ],
+    "6": [
+      "county"
+    ]
+  },
+  "crushed": {
+    "3": [
+      "use",
+      "sue",
+      "she",
+      "her",
+      "red",
+      "due"
+    ],
+    "4": [
+      "such",
+      "rush",
+      "user",
+      "sure",
+      "cure",
+      "hers",
+      "rude",
+      "herd",
+      "shed",
+      "used"
+    ],
+    "5": [
+      "crush",
+      "curse"
+    ],
+    "6": [
+      "cursed"
+    ]
+  },
+  "darling": {
+    "3": [
+      "lad",
+      "rid",
+      "lid",
+      "aid",
+      "air",
+      "ran",
+      "and",
+      "dig"
+    ],
+    "4": [
+      "lard",
+      "laid",
+      "dial",
+      "liar",
+      "rail",
+      "land",
+      "darn",
+      "nail",
+      "rain",
+      "ring",
+      "gain",
+      "drag",
+      "ding",
+      "glad",
+      "girl"
+    ],
+    "5": [
+      "drain",
+      "grain",
+      "grand"
+    ],
+    "6": [
+      "daring"
+    ]
+  },
+  "dearest": {
+    "3": [
+      "red",
+      "are",
+      "ear",
+      "sea",
+      "sad",
+      "see",
+      "eat",
+      "ate",
+      "tea",
+      "set",
+      "sat",
+      "art",
+      "rat"
+    ],
+    "4": [
+      "dear",
+      "dare",
+      "read",
+      "deer",
+      "seed",
+      "ease",
+      "seat",
+      "east",
+      "date",
+      "tree",
+      "rest",
+      "tear",
+      "rate",
+      "star"
+    ],
+    "5": [
+      "erase",
+      "tease",
+      "steer",
+      "tears",
+      "stare",
+      "trade"
+    ],
+    "6": [
+      "desert"
+    ]
+  },
+  "declare": {
+    "3": [
+      "lad",
+      "ace",
+      "red",
+      "car",
+      "are",
+      "ear"
+    ],
+    "4": [
+      "lead",
+      "deal",
+      "lace",
+      "lard",
+      "card",
+      "real",
+      "earl",
+      "read",
+      "dear",
+      "dare",
+      "care",
+      "race",
+      "deer"
+    ],
+    "5": [
+      "clear",
+      "elder"
+    ],
+    "6": [
+      "leader",
+      "dealer",
+      "cereal"
+    ]
+  },
+  "deliver": {
+    "3": [
+      "die",
+      "lid",
+      "lie",
+      "eve",
+      "red",
+      "rid"
+    ],
+    "4": [
+      "dive",
+      "evil",
+      "live",
+      "ever",
+      "deer",
+      "ride"
+    ],
+    "5": [
+      "devil",
+      "lever",
+      "elder",
+      "drive",
+      "liver"
+    ],
+    "6": [
+      "derive"
+    ]
+  },
+  "dialect": {
+    "3": [
+      "aid",
+      "lid",
+      "lad",
+      "lie",
+      "die",
+      "ace",
+      "ice",
+      "tie",
+      "eat",
+      "ate",
+      "tea",
+      "cat",
+      "act",
+      "let",
+      "lit"
+    ],
+    "4": [
+      "dial",
+      "laid",
+      "lead",
+      "deal",
+      "idea",
+      "acid",
+      "lace",
+      "date",
+      "tide",
+      "diet",
+      "tile",
+      "tale",
+      "late",
+      "tail"
+    ],
+    "5": [
+      "ideal",
+      "dealt"
+    ],
+    "6": [
+      "detail"
+    ]
+  },
+  "drawing": {
+    "3": [
+      "war",
+      "raw",
+      "aid",
+      "rid",
+      "air",
+      "ran",
+      "and",
+      "win",
+      "dig",
+      "wig"
+    ],
+    "4": [
+      "draw",
+      "ward",
+      "warn",
+      "dawn",
+      "darn",
+      "wind",
+      "rain",
+      "gain",
+      "ring",
+      "drag",
+      "ding",
+      "wing"
+    ],
+    "5": [
+      "drawn",
+      "drain",
+      "grain",
+      "grand"
+    ],
+    "6": [
+      "inward",
+      "daring"
+    ]
+  },
+  "eastern": {
+    "3": [
+      "sea",
+      "ate",
+      "tea",
+      "eat",
+      "set",
+      "sat",
+      "see",
+      "art",
+      "rat",
+      "are",
+      "ear",
+      "ran",
+      "net",
+      "ten",
+      "tan",
+      "ant"
+    ],
+    "4": [
+      "east",
+      "seat",
+      "ease",
+      "star",
+      "rest",
+      "rate",
+      "tear",
+      "tree",
+      "sane",
+      "near",
+      "earn",
+      "neat",
+      "rent",
+      "teen",
+      "nest",
+      "sent"
+    ],
+    "5": [
+      "tease",
+      "stare",
+      "tears",
+      "steer",
+      "erase",
+      "eaten",
+      "enter",
+      "stern",
+      "tense"
+    ],
+    "6": [
+      "resent"
+    ]
+  },
+  "elegant": {
+    "3": [
+      "gel",
+      "leg",
+      "age",
+      "eat",
+      "tea",
+      "ate",
+      "let",
+      "net",
+      "ten",
+      "tan",
+      "ant",
+      "tag",
+      "get"
+    ],
+    "4": [
+      "gene",
+      "lane",
+      "lean",
+      "tale",
+      "late",
+      "neat",
+      "teen",
+      "gate"
+    ],
+    "5": [
+      "eagle",
+      "angle",
+      "angel",
+      "eaten",
+      "agent"
+    ],
+    "6": [
+      "gentle"
+    ]
+  },
+  "erosion": {
+    "3": [
+      "sir",
+      "nor",
+      "one",
+      "sin",
+      "son"
+    ],
+    "4": [
+      "sore",
+      "rose",
+      "rise",
+      "iron",
+      "nose",
+      "soon"
+    ],
+    "5": [
+      "rinse",
+      "noise"
+    ],
+    "6": [
+      "senior",
+      "sooner"
+    ]
+  },
+  "eternal": {
+    "3": [
+      "ten",
+      "net",
+      "ate",
+      "eat",
+      "tea",
+      "art",
+      "rat",
+      "ear",
+      "are",
+      "ran",
+      "ant",
+      "tan",
+      "let"
+    ],
+    "4": [
+      "tree",
+      "rent",
+      "teen",
+      "tear",
+      "rate",
+      "near",
+      "earn",
+      "neat",
+      "late",
+      "tale",
+      "lane",
+      "lean",
+      "earl",
+      "real"
+    ],
+    "5": [
+      "enter",
+      "eaten",
+      "later",
+      "alert",
+      "learn"
+    ],
+    "6": [
+      "relate"
+    ]
+  },
+  "exclaim": {
+    "3": [
+      "ace",
+      "ice",
+      "lie",
+      "mix",
+      "aim"
+    ],
+    "4": [
+      "lace",
+      "came",
+      "exam",
+      "mail",
+      "male",
+      "meal",
+      "mile",
+      "calm"
+    ],
+    "5": [
+      "email",
+      "claim",
+      "camel"
+    ],
+    "6": [
+      "malice"
+    ]
+  },
+  "factory": {
+    "3": [
+      "fat",
+      "cat",
+      "act",
+      "car",
+      "art",
+      "rat",
+      "far",
+      "for",
+      "ray",
+      "cry",
+      "fry",
+      "toy",
+      "try"
+    ],
+    "4": [
+      "fact",
+      "coat",
+      "cart",
+      "tray"
+    ],
+    "5": [
+      "actor",
+      "forty"
+    ],
+    "6": [
+      "factor"
+    ]
+  },
+  "farther": {
+    "3": [
+      "far",
+      "fat",
+      "rat",
+      "art",
+      "hat",
+      "ear",
+      "are",
+      "ate",
+      "tea",
+      "eat",
+      "the",
+      "her"
+    ],
+    "4": [
+      "tear",
+      "rate",
+      "fate",
+      "fare",
+      "fear",
+      "heat",
+      "hate",
+      "hear",
+      "rear",
+      "rare"
+    ],
+    "5": [
+      "after",
+      "heart",
+      "earth"
+    ],
+    "6": [
+      "father",
+      "rather"
+    ]
+  },
+  "feather": {
+    "3": [
+      "fat",
+      "ate",
+      "tea",
+      "eat",
+      "hat",
+      "the",
+      "fee",
+      "her",
+      "are",
+      "ear",
+      "far",
+      "rat",
+      "art"
+    ],
+    "4": [
+      "fate",
+      "hate",
+      "heat",
+      "feet",
+      "thee",
+      "hear",
+      "here",
+      "fare",
+      "fear",
+      "free",
+      "tree",
+      "tear",
+      "rate"
+    ],
+    "5": [
+      "there",
+      "three",
+      "heart",
+      "earth",
+      "after"
+    ],
+    "6": [
+      "father"
+    ]
+  },
+  "federal": {
+    "3": [
+      "fed",
+      "fee",
+      "red",
+      "ear",
+      "are",
+      "far",
+      "lad"
+    ],
+    "4": [
+      "feed",
+      "free",
+      "deer",
+      "deaf",
+      "fare",
+      "fear",
+      "read",
+      "dear",
+      "dare",
+      "deal",
+      "lead",
+      "lard",
+      "earl",
+      "real",
+      "leaf",
+      "feel",
+      "flee"
+    ],
+    "5": [
+      "elder"
+    ],
+    "6": [
+      "dealer",
+      "leader"
+    ]
+  },
+  "fertile": {
+    "3": [
+      "fir",
+      "fit",
+      "tie",
+      "let",
+      "lit",
+      "lie",
+      "fee"
+    ],
+    "4": [
+      "fire",
+      "tire",
+      "left",
+      "lift",
+      "tile",
+      "file",
+      "life",
+      "free",
+      "feel",
+      "flee",
+      "feet",
+      "tree"
+    ],
+    "5": [
+      "rifle",
+      "litre",
+      "fleet"
+    ],
+    "6": [
+      "relief"
+    ]
+  },
+  "fighter": {
+    "3": [
+      "hit",
+      "fit",
+      "the",
+      "get",
+      "tie",
+      "fir",
+      "her"
+    ],
+    "4": [
+      "gift",
+      "tire",
+      "fire",
+      "heir",
+      "hire"
+    ],
+    "5": [
+      "fight",
+      "thief",
+      "eight",
+      "tiger",
+      "grief",
+      "their",
+      "right"
+    ],
+    "6": [
+      "fright"
+    ]
+  },
+  "foreign": {
+    "3": [
+      "for",
+      "fir",
+      "ego",
+      "fog",
+      "nor",
+      "one"
+    ],
+    "4": [
+      "fire",
+      "frog",
+      "iron",
+      "ring",
+      "fine"
+    ],
+    "5": [
+      "grief"
+    ],
+    "6": [
+      "fringe",
+      "finger",
+      "ignore",
+      "region"
+    ]
+  },
+  "formula": {
+    "3": [
+      "for",
+      "rum",
+      "fur",
+      "our",
+      "flu",
+      "far",
+      "arm"
+    ],
+    "4": [
+      "form",
+      "from",
+      "four",
+      "foul",
+      "loaf",
+      "foam",
+      "farm"
+    ],
+    "5": [
+      "flour",
+      "moral"
+    ],
+    "6": [
+      "formal"
+    ]
+  },
+  "gallery": {
+    "3": [
+      "all",
+      "gel",
+      "leg",
+      "age",
+      "are",
+      "ear",
+      "lay",
+      "ray",
+      "gay"
+    ],
+    "4": [
+      "real",
+      "earl",
+      "rage",
+      "gear",
+      "rely",
+      "year",
+      "gray",
+      "yell",
+      "ally"
+    ],
+    "5": [
+      "legal",
+      "large",
+      "early",
+      "rally",
+      "alley"
+    ],
+    "6": [
+      "really"
+    ]
+  },
+  "glacier": {
+    "3": [
+      "ace",
+      "age",
+      "leg",
+      "gel",
+      "ice",
+      "lie",
+      "air",
+      "ear",
+      "are",
+      "car"
+    ],
+    "4": [
+      "lace",
+      "cage",
+      "rail",
+      "liar",
+      "earl",
+      "real",
+      "girl",
+      "gear",
+      "rage",
+      "rice",
+      "race",
+      "care"
+    ],
+    "5": [
+      "agile",
+      "large",
+      "cigar",
+      "grace",
+      "clear"
+    ],
+    "6": [
+      "garlic"
+    ]
+  },
+  "granted": {
+    "3": [
+      "ran",
+      "tan",
+      "ant",
+      "tag",
+      "rat",
+      "art",
+      "ear",
+      "are",
+      "age",
+      "net",
+      "ten",
+      "get",
+      "eat",
+      "ate",
+      "tea",
+      "red",
+      "end",
+      "and"
+    ],
+    "4": [
+      "earn",
+      "near",
+      "gear",
+      "rage",
+      "gate",
+      "neat",
+      "rent",
+      "tear",
+      "rate",
+      "read",
+      "dear",
+      "dare",
+      "date",
+      "drag",
+      "tend",
+      "darn"
+    ],
+    "5": [
+      "grant",
+      "anger",
+      "range",
+      "agent",
+      "great",
+      "trade",
+      "grade",
+      "trend",
+      "grand"
+    ],
+    "6": [
+      "garden",
+      "danger"
+    ]
+  },
+  "greater": {
+    "3": [
+      "age",
+      "ear",
+      "are",
+      "tea",
+      "ate",
+      "eat",
+      "get",
+      "tag",
+      "art",
+      "rat"
+    ],
+    "4": [
+      "rage",
+      "gear",
+      "gate",
+      "rate",
+      "tear",
+      "tree",
+      "rear",
+      "rare"
+    ],
+    "5": [
+      "great",
+      "eager",
+      "agree"
+    ],
+    "6": [
+      "regret"
+    ]
+  },
+  "harvest": {
+    "3": [
+      "her",
+      "are",
+      "ear",
+      "ash",
+      "has",
+      "she",
+      "sea",
+      "tea",
+      "ate",
+      "eat",
+      "art",
+      "rat",
+      "sat",
+      "set",
+      "hat",
+      "the",
+      "vat"
+    ],
+    "4": [
+      "have",
+      "hear",
+      "hers",
+      "save",
+      "tear",
+      "rate",
+      "star",
+      "rest",
+      "east",
+      "seat",
+      "hate",
+      "heat",
+      "vast"
+    ],
+    "5": [
+      "shave",
+      "share",
+      "tears",
+      "stare",
+      "heart",
+      "earth",
+      "trash",
+      "haste"
+    ],
+    "6": [
+      "starve"
+    ]
+  },
+  "healing": {
+    "3": [
+      "lie",
+      "age",
+      "leg",
+      "gel"
+    ],
+    "4": [
+      "heal",
+      "lane",
+      "lean",
+      "nail",
+      "line",
+      "gain",
+      "hang"
+    ],
+    "5": [
+      "alien",
+      "angle",
+      "angel",
+      "agile"
+    ],
+    "6": [
+      "inhale"
+    ]
+  },
+  "heating": {
+    "3": [
+      "the",
+      "hat",
+      "ate",
+      "tea",
+      "eat",
+      "hit",
+      "tie",
+      "ten",
+      "net",
+      "ant",
+      "tan",
+      "tin",
+      "age",
+      "get",
+      "tag"
+    ],
+    "4": [
+      "heat",
+      "hate",
+      "neat",
+      "than",
+      "then",
+      "thin",
+      "hint",
+      "anti",
+      "gain",
+      "hang",
+      "gate"
+    ],
+    "5": [
+      "eight",
+      "thing",
+      "night",
+      "giant",
+      "agent"
+    ],
+    "6": [
+      "ignate"
+    ]
+  },
+  "highest": {
+    "3": [
+      "his",
+      "she",
+      "tie",
+      "get",
+      "its",
+      "sit",
+      "set",
+      "hit",
+      "the"
+    ],
+    "4": [
+      "high",
+      "site",
+      "this",
+      "shit"
+    ],
+    "5": [
+      "eight",
+      "sight"
+    ],
+    "6": [
+      "eighth",
+      "height"
+    ]
+  },
+  "honesty": {
+    "3": [
+      "one",
+      "she",
+      "son",
+      "ton",
+      "not",
+      "toe",
+      "ten",
+      "net",
+      "the",
+      "hot",
+      "set",
+      "toy",
+      "shy",
+      "yes",
+      "yet"
+    ],
+    "4": [
+      "hose",
+      "shoe",
+      "nose",
+      "tone",
+      "note",
+      "then",
+      "sent",
+      "nest",
+      "host",
+      "shot",
+      "nosy",
+      "they"
+    ],
+    "5": [
+      "those",
+      "stone",
+      "honey"
+    ],
+    "6": [
+      "honest"
+    ]
+  },
+  "intense": {
+    "3": [
+      "tin",
+      "tie",
+      "ten",
+      "net",
+      "inn",
+      "set",
+      "sit",
+      "its",
+      "sin",
+      "see"
+    ],
+    "4": [
+      "nine",
+      "nest",
+      "sent",
+      "site",
+      "teen"
+    ],
+    "5": [
+      "tense"
+    ],
+    "6": [
+      "tennis"
+    ]
+  },
+  "kitchen": {
+    "3": [
+      "kit",
+      "hit",
+      "tie",
+      "ice",
+      "the",
+      "tin",
+      "ten",
+      "net",
+      "kin",
+      "ken"
+    ],
+    "4": [
+      "tick",
+      "hike",
+      "hint",
+      "thin",
+      "then",
+      "knit",
+      "chin",
+      "inch",
+      "nice",
+      "nick",
+      "neck",
+      "cent"
+    ],
+    "5": [
+      "thick",
+      "ethic",
+      "think"
+    ],
+    "6": [
+      "ethnic"
+    ]
+  },
+  "largely": {
+    "3": [
+      "gel",
+      "leg",
+      "age",
+      "are",
+      "ear",
+      "all",
+      "ray",
+      "lay",
+      "gay"
+    ],
+    "4": [
+      "real",
+      "earl",
+      "gear",
+      "rage",
+      "year",
+      "rely",
+      "ally",
+      "yell",
+      "gray"
+    ],
+    "5": [
+      "large",
+      "legal",
+      "early",
+      "rally",
+      "alley"
+    ],
+    "6": [
+      "really"
+    ]
+  },
+  "leading": {
+    "3": [
+      "lad",
+      "aid",
+      "lid",
+      "die",
+      "lie",
+      "end",
+      "and",
+      "age",
+      "leg",
+      "gel",
+      "dig"
+    ],
+    "4": [
+      "lead",
+      "deal",
+      "dial",
+      "laid",
+      "idea",
+      "land",
+      "lend",
+      "lane",
+      "lean",
+      "nail",
+      "line",
+      "gain",
+      "ding",
+      "glad"
+    ],
+    "5": [
+      "ideal",
+      "alien",
+      "agile",
+      "angel",
+      "angle"
+    ],
+    "6": [
+      "denial"
+    ]
+  },
+  "leather": {
+    "3": [
+      "let",
+      "ate",
+      "tea",
+      "eat",
+      "hat",
+      "the",
+      "her",
+      "are",
+      "ear",
+      "rat",
+      "art"
+    ],
+    "4": [
+      "late",
+      "tale",
+      "heal",
+      "hate",
+      "heat",
+      "thee",
+      "heel",
+      "hear",
+      "here",
+      "real",
+      "earl",
+      "tree",
+      "tear",
+      "rate"
+    ],
+    "5": [
+      "there",
+      "three",
+      "heart",
+      "earth",
+      "alert",
+      "later"
+    ],
+    "6": [
+      "relate"
+    ]
+  },
+  "lighten": {
+    "3": [
+      "hit",
+      "lit",
+      "gel",
+      "leg",
+      "lie",
+      "the",
+      "let",
+      "get",
+      "tie",
+      "tin",
+      "ten",
+      "net"
+    ],
+    "4": [
+      "tile",
+      "lint",
+      "line",
+      "thin",
+      "hint",
+      "then"
+    ],
+    "5": [
+      "light",
+      "eight",
+      "thing",
+      "night"
+    ],
+    "6": [
+      "length"
+    ]
+  },
+  "located": {
+    "3": [
+      "cat",
+      "act",
+      "lot",
+      "ace",
+      "eat",
+      "tea",
+      "ate",
+      "let",
+      "toe",
+      "dot",
+      "old",
+      "lad"
+    ],
+    "4": [
+      "coal",
+      "coat",
+      "lace",
+      "tale",
+      "late",
+      "code",
+      "cold",
+      "told",
+      "date",
+      "load",
+      "deal",
+      "lead"
+    ],
+    "5": [
+      "dealt"
+    ],
+    "6": [
+      "locate"
+    ]
+  },
+  "machine": {
+    "3": [
+      "ham",
+      "him",
+      "aim",
+      "can",
+      "man",
+      "ice",
+      "ace",
+      "men"
+    ],
+    "4": [
+      "chin",
+      "inch",
+      "main",
+      "cane",
+      "nice",
+      "came",
+      "amen",
+      "mean",
+      "name",
+      "mine",
+      "each"
+    ],
+    "5": [
+      "china",
+      "chain"
+    ],
+    "6": [
+      "cinema"
+    ]
+  },
+  "manager": {
+    "3": [
+      "man",
+      "men",
+      "age",
+      "ran",
+      "are",
+      "ear",
+      "arm"
+    ],
+    "4": [
+      "name",
+      "amen",
+      "mean",
+      "game",
+      "near",
+      "earn",
+      "rage",
+      "gear",
+      "gram",
+      "area"
+    ],
+    "5": [
+      "range",
+      "anger"
+    ],
+    "6": [
+      "manage"
+    ]
+  },
+  "married": {
+    "3": [
+      "arm",
+      "air",
+      "aim",
+      "ear",
+      "are",
+      "aid",
+      "rid",
+      "red",
+      "die",
+      "mad",
+      "dam",
+      "mid"
+    ],
+    "4": [
+      "rear",
+      "rare",
+      "read",
+      "dear",
+      "dare",
+      "ride",
+      "idea",
+      "maid",
+      "made"
+    ],
+    "5": [
+      "dream",
+      "armed",
+      "media"
+    ],
+    "6": [
+      "admire"
+    ]
+  },
+  "measure": {
+    "3": [
+      "sea",
+      "use",
+      "sue",
+      "are",
+      "ear",
+      "arm",
+      "rum",
+      "see"
+    ],
+    "4": [
+      "same",
+      "muse",
+      "sure",
+      "user",
+      "mere",
+      "seem",
+      "ease"
+    ],
+    "5": [
+      "erase"
+    ],
+    "6": [
+      "resume"
+    ]
+  },
+  "medical": {
+    "3": [
+      "mid",
+      "die",
+      "ice",
+      "aid",
+      "dam",
+      "mad",
+      "aim",
+      "ace",
+      "lad",
+      "lie",
+      "lid"
+    ],
+    "4": [
+      "idea",
+      "maid",
+      "made",
+      "acid",
+      "came",
+      "deal",
+      "lead",
+      "lace",
+      "meal",
+      "male",
+      "calm",
+      "mile",
+      "mail",
+      "dial",
+      "laid",
+      "mild"
+    ],
+    "5": [
+      "media",
+      "medal",
+      "camel",
+      "email",
+      "claim",
+      "ideal"
+    ],
+    "6": [
+      "malice"
+    ]
+  },
+  "mineral": {
+    "3": [
+      "men",
+      "man",
+      "aim",
+      "ear",
+      "are",
+      "arm",
+      "ran",
+      "air",
+      "lie"
+    ],
+    "4": [
+      "mine",
+      "name",
+      "mean",
+      "amen",
+      "main",
+      "earn",
+      "near",
+      "rain",
+      "nail",
+      "liar",
+      "rail",
+      "mail",
+      "real",
+      "earl",
+      "mile",
+      "male",
+      "meal",
+      "lane",
+      "lean",
+      "line"
+    ],
+    "5": [
+      "email",
+      "realm",
+      "learn",
+      "alien"
+    ],
+    "6": [
+      "remain"
+    ]
+  },
+  "miracle": {
+    "3": [
+      "aim",
+      "arm",
+      "air",
+      "car",
+      "ice",
+      "lie",
+      "ace",
+      "ear",
+      "are"
+    ],
+    "4": [
+      "liar",
+      "rail",
+      "mail",
+      "calm",
+      "rice",
+      "mile",
+      "lace",
+      "came",
+      "male",
+      "meal",
+      "race",
+      "care",
+      "earl",
+      "real"
+    ],
+    "5": [
+      "claim",
+      "crime",
+      "email",
+      "camel",
+      "clear",
+      "cream",
+      "realm"
+    ],
+    "6": [
+      "malice"
+    ]
+  },
+  "monitor": {
+    "3": [
+      "tin",
+      "not",
+      "ton",
+      "too",
+      "nor"
+    ],
+    "4": [
+      "mint",
+      "omit",
+      "into",
+      "moon",
+      "onto",
+      "torn",
+      "root",
+      "room",
+      "riot",
+      "trim",
+      "iron"
+    ],
+    "5": [
+      "moron",
+      "motor",
+      "minor"
+    ],
+    "6": [
+      "motion"
+    ]
+  },
+  "nearest": {
+    "3": [
+      "ran",
+      "are",
+      "ear",
+      "sea",
+      "see",
+      "eat",
+      "ate",
+      "tea",
+      "set",
+      "sat",
+      "net",
+      "ten",
+      "tan",
+      "ant",
+      "art",
+      "rat"
+    ],
+    "4": [
+      "near",
+      "earn",
+      "sane",
+      "ease",
+      "seat",
+      "east",
+      "neat",
+      "teen",
+      "nest",
+      "sent",
+      "tree",
+      "rest",
+      "rent",
+      "tear",
+      "rate",
+      "star"
+    ],
+    "5": [
+      "erase",
+      "tease",
+      "eaten",
+      "tense",
+      "steer",
+      "enter",
+      "stern",
+      "tears",
+      "stare"
+    ],
+    "6": [
+      "resent"
+    ]
+  },
+  "neither": {
+    "3": [
+      "ten",
+      "net",
+      "tin",
+      "tie",
+      "hit",
+      "the",
+      "her"
+    ],
+    "4": [
+      "thin",
+      "hint",
+      "then",
+      "teen",
+      "thee",
+      "hire",
+      "heir",
+      "here",
+      "tree",
+      "rent",
+      "tire"
+    ],
+    "5": [
+      "there",
+      "three",
+      "enter",
+      "their"
+    ],
+    "6": [
+      "entire",
+      "either"
+    ]
+  },
+  "neutral": {
+    "3": [
+      "ten",
+      "net",
+      "nut",
+      "run",
+      "tea",
+      "ate",
+      "eat",
+      "ant",
+      "tan",
+      "rat",
+      "art",
+      "ran",
+      "are",
+      "ear",
+      "let"
+    ],
+    "4": [
+      "tune",
+      "turn",
+      "rent",
+      "tuna",
+      "aunt",
+      "neat",
+      "rate",
+      "tear",
+      "near",
+      "earn",
+      "rule",
+      "earl",
+      "real",
+      "lean",
+      "lane",
+      "late",
+      "tale"
+    ],
+    "5": [
+      "learn",
+      "alert",
+      "later"
+    ],
+    "6": [
+      "nature"
+    ]
+  },
+  "obscure": {
+    "3": [
+      "sob",
+      "bus",
+      "rob",
+      "our",
+      "rub",
+      "sue",
+      "use"
+    ],
+    "4": [
+      "sour",
+      "ours",
+      "user",
+      "sure",
+      "sore",
+      "rose",
+      "bore",
+      "robe",
+      "cure",
+      "core"
+    ],
+    "5": [
+      "scrub",
+      "sober",
+      "curse",
+      "score"
+    ],
+    "6": [
+      "course",
+      "source"
+    ]
+  },
+  "operate": {
+    "3": [
+      "pro",
+      "per",
+      "ear",
+      "are",
+      "rap",
+      "pet",
+      "toe",
+      "opt",
+      "pot",
+      "top",
+      "rat",
+      "art",
+      "tea",
+      "eat",
+      "ate",
+      "tap",
+      "pat",
+      "pee"
+    ],
+    "4": [
+      "rope",
+      "rape",
+      "pear",
+      "tore",
+      "port",
+      "poet",
+      "rate",
+      "tear",
+      "trap",
+      "part",
+      "tape",
+      "tree",
+      "peer"
+    ],
+    "5": [
+      "opera"
+    ],
+    "6": [
+      "repeat"
+    ]
+  },
+  "organic": {
+    "3": [
+      "ago",
+      "ran",
+      "nor",
+      "air",
+      "con",
+      "can",
+      "car"
+    ],
+    "4": [
+      "gain",
+      "rain",
+      "iron",
+      "ring",
+      "corn",
+      "coin"
+    ],
+    "5": [
+      "organ",
+      "groan",
+      "grain",
+      "cigar",
+      "cargo"
+    ],
+    "6": [
+      "racing"
+    ]
+  },
+  "outside": {
+    "3": [
+      "out",
+      "its",
+      "sit",
+      "dot",
+      "tie",
+      "due",
+      "die",
+      "toe",
+      "sue",
+      "use",
+      "set"
+    ],
+    "4": [
+      "suit",
+      "dust",
+      "stud",
+      "tide",
+      "diet",
+      "used",
+      "side",
+      "does",
+      "site"
+    ],
+    "5": [
+      "suite"
+    ],
+    "6": [
+      "studio"
+    ]
+  },
+  "painter": {
+    "3": [
+      "nap",
+      "pan",
+      "pin",
+      "tin",
+      "pit",
+      "tip",
+      "tan",
+      "ant",
+      "pat",
+      "tap",
+      "pie",
+      "pen",
+      "net",
+      "ten",
+      "pet",
+      "tie",
+      "tea",
+      "eat",
+      "ate",
+      "art",
+      "rat",
+      "air",
+      "are",
+      "ear",
+      "rap",
+      "per",
+      "ran"
+    ],
+    "4": [
+      "pain",
+      "pint",
+      "anti",
+      "pine",
+      "neat",
+      "tape",
+      "tire",
+      "rate",
+      "tear",
+      "pair",
+      "trip",
+      "part",
+      "trap",
+      "rape",
+      "pear",
+      "earn",
+      "near",
+      "rent",
+      "rain"
+    ],
+    "5": [
+      "paint",
+      "print",
+      "train"
+    ],
+    "6": [
+      "parent",
+      "retain"
+    ]
+  },
+  "parsley": {
+    "3": [
+      "rap",
+      "spa",
+      "lap",
+      "ear",
+      "are",
+      "sea",
+      "per",
+      "lay",
+      "ray",
+      "pay",
+      "pry",
+      "say",
+      "yes",
+      "spy"
+    ],
+    "4": [
+      "slap",
+      "rape",
+      "pear",
+      "seal",
+      "sale",
+      "leap",
+      "pale",
+      "plea",
+      "earl",
+      "real",
+      "year",
+      "rely",
+      "pray",
+      "play",
+      "easy"
+    ],
+    "5": [
+      "spare",
+      "pearl",
+      "laser",
+      "early",
+      "repay",
+      "reply",
+      "spray"
+    ],
+    "6": [
+      "player"
+    ]
+  },
+  "patient": {
+    "3": [
+      "pat",
+      "tap",
+      "pit",
+      "tip",
+      "tie",
+      "pet",
+      "pie",
+      "tea",
+      "ate",
+      "eat",
+      "ant",
+      "tan",
+      "tin",
+      "pin",
+      "nap",
+      "pan",
+      "pen",
+      "ten",
+      "net"
+    ],
+    "4": [
+      "tape",
+      "anti",
+      "pint",
+      "pain",
+      "pine",
+      "neat",
+      "tent"
+    ],
+    "5": [
+      "paint"
+    ],
+    "6": [
+      "patent"
+    ]
+  },
+  "pattern": {
+    "3": [
+      "pat",
+      "tap",
+      "pet",
+      "tea",
+      "eat",
+      "ate",
+      "rat",
+      "art",
+      "rap",
+      "per",
+      "are",
+      "ear",
+      "ten",
+      "net",
+      "ant",
+      "tan",
+      "ran",
+      "pan",
+      "nap",
+      "pen"
+    ],
+    "4": [
+      "tape",
+      "trap",
+      "part",
+      "rate",
+      "tear",
+      "rape",
+      "pear",
+      "neat",
+      "rent",
+      "near",
+      "earn",
+      "tent"
+    ],
+    "5": [
+      "treat"
+    ],
+    "6": [
+      "parent",
+      "patent"
+    ]
+  },
+  "penalty": {
+    "3": [
+      "pen",
+      "pan",
+      "nap",
+      "lap",
+      "ten",
+      "net",
+      "eat",
+      "ate",
+      "tea",
+      "tan",
+      "ant",
+      "pat",
+      "tap",
+      "pet",
+      "let",
+      "yet",
+      "lay",
+      "pay",
+      "any"
+    ],
+    "4": [
+      "plan",
+      "leap",
+      "plea",
+      "pale",
+      "lean",
+      "lane",
+      "neat",
+      "tape",
+      "late",
+      "tale",
+      "type",
+      "play"
+    ],
+    "5": [
+      "panel",
+      "plane",
+      "plant",
+      "plate"
+    ],
+    "6": [
+      "planet",
+      "plenty"
+    ]
+  },
+  "percent": {
+    "3": [
+      "per",
+      "pee",
+      "pen",
+      "ten",
+      "net",
+      "pet"
+    ],
+    "4": [
+      "peer",
+      "tree",
+      "rent",
+      "teen",
+      "cent"
+    ],
+    "5": [
+      "creep",
+      "enter"
+    ],
+    "6": [
+      "centre",
+      "center",
+      "recent"
+    ]
+  },
+  "perhaps": {
+    "3": [
+      "per",
+      "her",
+      "rap",
+      "are",
+      "ear",
+      "sea",
+      "spa",
+      "ash",
+      "has",
+      "she"
+    ],
+    "4": [
+      "heap",
+      "rape",
+      "pear",
+      "hear",
+      "hers"
+    ],
+    "5": [
+      "paper",
+      "spare",
+      "shape",
+      "phase",
+      "sharp",
+      "share"
+    ],
+    "6": [
+      "phrase"
+    ]
+  },
+  "persist": {
+    "3": [
+      "per",
+      "sir",
+      "sip",
+      "pie",
+      "tie",
+      "set",
+      "its",
+      "sit",
+      "pet",
+      "pit",
+      "tip"
+    ],
+    "4": [
+      "rise",
+      "tire",
+      "rest",
+      "stir",
+      "site",
+      "trip",
+      "step",
+      "tips",
+      "spit"
+    ],
+    "5": [
+      "press",
+      "strip",
+      "spite"
+    ],
+    "6": [
+      "priest",
+      "sister",
+      "resist"
+    ]
+  },
+  "poverty": {
+    "3": [
+      "per",
+      "pro",
+      "toe",
+      "pet",
+      "top",
+      "pot",
+      "opt",
+      "toy",
+      "try",
+      "pry",
+      "yet"
+    ],
+    "4": [
+      "rope",
+      "over",
+      "vote",
+      "poet",
+      "tore",
+      "port",
+      "tyre",
+      "type",
+      "very"
+    ],
+    "5": [
+      "prove"
+    ],
+    "6": [
+      "poetry"
+    ]
+  },
+  "precise": {
+    "3": [
+      "per",
+      "ice",
+      "pie",
+      "sip",
+      "sir",
+      "see",
+      "pee"
+    ],
+    "4": [
+      "rice",
+      "rise",
+      "peer"
+    ],
+    "5": [
+      "price",
+      "spice",
+      "piece",
+      "creep"
+    ],
+    "6": [
+      "pierce",
+      "recipe"
+    ]
+  },
+  "predict": {
+    "3": [
+      "per",
+      "red",
+      "die",
+      "pie",
+      "dip",
+      "rid",
+      "ice",
+      "tie",
+      "pet",
+      "pit",
+      "tip"
+    ],
+    "4": [
+      "ride",
+      "rice",
+      "tire",
+      "trip",
+      "dirt",
+      "tide",
+      "diet"
+    ],
+    "5": [
+      "pride",
+      "price",
+      "tired"
+    ],
+    "6": [
+      "credit",
+      "direct"
+    ]
+  },
+  "present": {
+    "3": [
+      "per",
+      "see",
+      "pee",
+      "pen",
+      "net",
+      "ten",
+      "pet",
+      "set"
+    ],
+    "4": [
+      "peer",
+      "tree",
+      "rent",
+      "teen",
+      "rest",
+      "sent",
+      "nest",
+      "step"
+    ],
+    "5": [
+      "enter",
+      "stern",
+      "spent",
+      "tense",
+      "steep",
+      "steer"
+    ],
+    "6": [
+      "resent"
+    ]
+  },
+  "presume": {
+    "3": [
+      "per",
+      "sue",
+      "use",
+      "rum",
+      "pee",
+      "see"
+    ],
+    "4": [
+      "pure",
+      "sure",
+      "user",
+      "muse",
+      "mere",
+      "peer",
+      "seem"
+    ],
+    "5": [
+      "super",
+      "purse",
+      "sperm"
+    ],
+    "6": [
+      "resume"
+    ]
+  },
+  "pretend": {
+    "3": [
+      "per",
+      "pet",
+      "pee",
+      "net",
+      "ten",
+      "pen",
+      "red",
+      "end"
+    ],
+    "4": [
+      "peer",
+      "tree",
+      "rent",
+      "teen",
+      "deer",
+      "need",
+      "deep",
+      "tend"
+    ],
+    "5": [
+      "enter",
+      "trend"
+    ],
+    "6": [
+      "tender"
+    ]
+  },
+  "promise": {
+    "3": [
+      "pro",
+      "sip",
+      "sir",
+      "per",
+      "pie"
+    ],
+    "4": [
+      "prom",
+      "sore",
+      "rose",
+      "rise",
+      "rope",
+      "pose",
+      "some",
+      "poem",
+      "more"
+    ],
+    "5": [
+      "miser",
+      "prime",
+      "sperm"
+    ],
+    "6": [
+      "impose"
+    ]
+  },
+  "protest": {
+    "3": [
+      "pro",
+      "pot",
+      "opt",
+      "top",
+      "toe",
+      "pet",
+      "per",
+      "set"
+    ],
+    "4": [
+      "port",
+      "poet",
+      "rope",
+      "tore",
+      "sort",
+      "spot",
+      "post",
+      "stop",
+      "step",
+      "pose",
+      "rest",
+      "rose",
+      "sore",
+      "test"
+    ],
+    "5": [
+      "sport",
+      "store"
+    ],
+    "6": [
+      "poster"
+    ]
+  },
+  "provide": {
+    "3": [
+      "pro",
+      "rod",
+      "dip",
+      "rid",
+      "red",
+      "die",
+      "per",
+      "pie"
+    ],
+    "4": [
+      "drop",
+      "ride",
+      "rope",
+      "dope",
+      "dive",
+      "over"
+    ],
+    "5": [
+      "pride",
+      "drive",
+      "video",
+      "drove",
+      "prove"
+    ],
+    "6": [
+      "period"
+    ]
+  },
+  "purpose": {
+    "3": [
+      "pro",
+      "pop",
+      "our",
+      "use",
+      "sue",
+      "per"
+    ],
+    "4": [
+      "pour",
+      "pops",
+      "soup",
+      "ours",
+      "sour",
+      "sure",
+      "user",
+      "sore",
+      "rose",
+      "pure",
+      "rope",
+      "pose"
+    ],
+    "5": [
+      "super",
+      "purse",
+      "upper"
+    ],
+    "6": [
+      "supper"
+    ]
+  },
+  "reading": {
+    "3": [
+      "are",
+      "ear",
+      "red",
+      "aid",
+      "air",
+      "rid",
+      "die",
+      "end",
+      "and",
+      "ran",
+      "age",
+      "dig"
+    ],
+    "4": [
+      "read",
+      "dare",
+      "dear",
+      "ride",
+      "idea",
+      "darn",
+      "near",
+      "earn",
+      "rain",
+      "gain",
+      "gear",
+      "rage",
+      "ring",
+      "ding",
+      "drag"
+    ],
+    "5": [
+      "drain",
+      "diner",
+      "anger",
+      "range",
+      "grain",
+      "grand",
+      "grade"
+    ],
+    "6": [
+      "daring",
+      "danger",
+      "garden"
+    ]
+  },
+  "realise": {
+    "3": [
+      "are",
+      "ear",
+      "air",
+      "lie",
+      "sea",
+      "sir",
+      "see"
+    ],
+    "4": [
+      "real",
+      "earl",
+      "liar",
+      "rail",
+      "seal",
+      "sale",
+      "sail",
+      "rise",
+      "ease",
+      "else"
+    ],
+    "5": [
+      "laser",
+      "raise",
+      "aisle",
+      "erase",
+      "lease"
+    ],
+    "6": [
+      "serial",
+      "easier"
+    ]
+  },
+  "receipt": {
+    "3": [
+      "ice",
+      "pee",
+      "per",
+      "pie",
+      "tie",
+      "pet",
+      "tip",
+      "pit"
+    ],
+    "4": [
+      "rice",
+      "peer",
+      "tire",
+      "trip",
+      "tree"
+    ],
+    "5": [
+      "creep",
+      "price",
+      "piece"
+    ],
+    "6": [
+      "recipe",
+      "pierce"
+    ]
+  },
+  "regular": {
+    "3": [
+      "rug",
+      "gel",
+      "leg",
+      "age",
+      "ear",
+      "are"
+    ],
+    "4": [
+      "urge",
+      "rule",
+      "glue",
+      "rage",
+      "gear",
+      "earl",
+      "real",
+      "rear",
+      "rare"
+    ],
+    "5": [
+      "argue",
+      "large",
+      "ruler",
+      "rural"
+    ],
+    "6": [
+      "larger"
+    ]
+  },
+  "replace": {
+    "3": [
+      "per",
+      "lap",
+      "rap",
+      "ear",
+      "are",
+      "car",
+      "cap",
+      "ace",
+      "pee"
+    ],
+    "4": [
+      "real",
+      "earl",
+      "rape",
+      "pear",
+      "leap",
+      "pale",
+      "plea",
+      "crap",
+      "clap",
+      "lace",
+      "race",
+      "care",
+      "pace",
+      "cape",
+      "peer",
+      "peel"
+    ],
+    "5": [
+      "pearl",
+      "clear",
+      "place",
+      "peace",
+      "creep",
+      "repel"
+    ],
+    "6": [
+      "parcel",
+      "cereal"
+    ]
+  },
+  "respond": {
+    "3": [
+      "per",
+      "pro",
+      "pen",
+      "nor",
+      "son",
+      "one",
+      "end",
+      "nod",
+      "red",
+      "rod"
+    ],
+    "4": [
+      "rope",
+      "sore",
+      "rose",
+      "pose",
+      "nope",
+      "open",
+      "nose",
+      "does",
+      "send",
+      "dope",
+      "pond",
+      "drop"
+    ],
+    "5": [
+      "drops",
+      "spend"
+    ],
+    "6": [
+      "person"
+    ]
+  },
+  "scammer": {
+    "3": [
+      "ace",
+      "sea",
+      "arm",
+      "car",
+      "ear",
+      "are"
+    ],
+    "4": [
+      "scam",
+      "came",
+      "same",
+      "case",
+      "race",
+      "care",
+      "scar"
+    ],
+    "5": [
+      "cream",
+      "scare"
+    ],
+    "6": [
+      "scream"
+    ]
+  },
+  "scaring": {
+    "3": [
+      "car",
+      "air",
+      "sir",
+      "can",
+      "ran",
+      "sin",
+      "gas"
+    ],
+    "4": [
+      "scar",
+      "scan",
+      "rain",
+      "gain",
+      "sang",
+      "sign",
+      "sing",
+      "ring"
+    ],
+    "5": [
+      "grain",
+      "cigar"
+    ],
+    "6": [
+      "racing"
+    ]
+  },
+  "scarlet": {
+    "3": [
+      "car",
+      "ace",
+      "ear",
+      "are",
+      "sea",
+      "cat",
+      "act",
+      "eat",
+      "tea",
+      "ate",
+      "let",
+      "sat",
+      "set",
+      "art",
+      "rat"
+    ],
+    "4": [
+      "scar",
+      "race",
+      "care",
+      "case",
+      "seal",
+      "sale",
+      "earl",
+      "real",
+      "lace",
+      "late",
+      "tale",
+      "cast",
+      "last",
+      "salt",
+      "seat",
+      "east",
+      "rest",
+      "tear",
+      "rate",
+      "star",
+      "cart"
+    ],
+    "5": [
+      "scare",
+      "laser",
+      "scale",
+      "clear",
+      "least",
+      "steal",
+      "later",
+      "alert",
+      "tears",
+      "stare",
+      "react",
+      "trace"
+    ],
+    "6": [
+      "castle"
+    ]
+  },
+  "section": {
+    "3": [
+      "set",
+      "its",
+      "sit",
+      "tie",
+      "ice",
+      "toe",
+      "one",
+      "con",
+      "sin",
+      "son",
+      "tin",
+      "ten",
+      "net",
+      "not",
+      "ton"
+    ],
+    "4": [
+      "site",
+      "cost",
+      "nice",
+      "once",
+      "coin",
+      "nose",
+      "note",
+      "tone",
+      "into",
+      "nest",
+      "sent",
+      "cent"
+    ],
+    "5": [
+      "since",
+      "noise",
+      "stone",
+      "scent"
+    ],
+    "6": [
+      "insect",
+      "notice"
+    ]
+  },
+  "servant": {
+    "3": [
+      "sea",
+      "are",
+      "ear",
+      "van",
+      "ran",
+      "ate",
+      "tea",
+      "eat",
+      "rat",
+      "art",
+      "ten",
+      "net",
+      "tan",
+      "ant",
+      "set",
+      "sat",
+      "vat"
+    ],
+    "4": [
+      "save",
+      "sane",
+      "earn",
+      "near",
+      "tear",
+      "rate",
+      "rent",
+      "neat",
+      "rest",
+      "star",
+      "east",
+      "seat",
+      "sent",
+      "nest",
+      "vast"
+    ],
+    "5": [
+      "stare",
+      "tears",
+      "stern"
+    ],
+    "6": [
+      "starve"
+    ]
+  },
+  "several": {
+    "3": [
+      "see",
+      "eve",
+      "sea",
+      "ear",
+      "are"
+    ],
+    "4": [
+      "ever",
+      "save",
+      "ease",
+      "earl",
+      "real",
+      "seal",
+      "sale",
+      "else"
+    ],
+    "5": [
+      "serve",
+      "erase",
+      "slave",
+      "laser",
+      "lease",
+      "leave",
+      "lever"
+    ],
+    "6": [
+      "reveal"
+    ]
+  },
+  "spoiled": {
+    "3": [
+      "sip",
+      "oil",
+      "lip",
+      "pie",
+      "lie",
+      "old",
+      "lid",
+      "dip",
+      "die"
+    ],
+    "4": [
+      "soil",
+      "lips",
+      "slip",
+      "pose",
+      "lose",
+      "sole",
+      "pile",
+      "pole",
+      "dope",
+      "sold",
+      "does",
+      "sled",
+      "side"
+    ],
+    "5": [
+      "spoil",
+      "slope",
+      "slide",
+      "solid"
+    ],
+    "6": [
+      "dispel"
+    ]
+  },
+  "surface": {
+    "3": [
+      "fur",
+      "far",
+      "car",
+      "are",
+      "ear",
+      "ace",
+      "sue",
+      "use",
+      "sea"
+    ],
+    "4": [
+      "scar",
+      "cure",
+      "care",
+      "race",
+      "user",
+      "sure",
+      "case",
+      "face",
+      "fuse",
+      "safe",
+      "fear",
+      "fare"
+    ],
+    "5": [
+      "scarf",
+      "curse",
+      "scare",
+      "sauce",
+      "cause"
+    ],
+    "6": [
+      "saucer"
+    ]
+  },
+  "teacher": {
+    "3": [
+      "tea",
+      "ate",
+      "eat",
+      "act",
+      "cat",
+      "ace",
+      "hat",
+      "the",
+      "her",
+      "are",
+      "ear",
+      "rat",
+      "art",
+      "car"
+    ],
+    "4": [
+      "chat",
+      "hate",
+      "heat",
+      "each",
+      "thee",
+      "hear",
+      "here",
+      "rate",
+      "tear",
+      "tree",
+      "race",
+      "care",
+      "cart"
+    ],
+    "5": [
+      "teach",
+      "cheat",
+      "earth",
+      "heart",
+      "there",
+      "three",
+      "cheer",
+      "reach",
+      "chart",
+      "react",
+      "trace"
+    ],
+    "6": [
+      "create"
+    ]
+  },
+  "tension": {
+    "3": [
+      "ten",
+      "net",
+      "set",
+      "sin",
+      "tin",
+      "sit",
+      "its",
+      "tie",
+      "one",
+      "son",
+      "not",
+      "ton",
+      "toe",
+      "inn"
+    ],
+    "4": [
+      "sent",
+      "nest",
+      "site",
+      "nose",
+      "note",
+      "tone",
+      "into",
+      "nine",
+      "none"
+    ],
+    "5": [
+      "stone",
+      "noise"
+    ],
+    "6": [
+      "tennis"
+    ]
+  },
+  "theatre": {
+    "3": [
+      "the",
+      "hat",
+      "tea",
+      "ate",
+      "eat",
+      "her",
+      "are",
+      "ear",
+      "art",
+      "rat"
+    ],
+    "4": [
+      "hate",
+      "heat",
+      "that",
+      "hear",
+      "tear",
+      "rate",
+      "thee",
+      "here",
+      "tree"
+    ],
+    "5": [
+      "heart",
+      "earth",
+      "treat",
+      "there",
+      "three",
+      "teeth"
+    ],
+    "6": [
+      "threat"
+    ]
+  },
+  "therapy": {
+    "3": [
+      "the",
+      "her",
+      "ear",
+      "are",
+      "tea",
+      "ate",
+      "eat",
+      "art",
+      "rat",
+      "hat",
+      "per",
+      "pet",
+      "rap",
+      "tap",
+      "pat",
+      "pay",
+      "yet",
+      "ray",
+      "pry",
+      "try"
+    ],
+    "4": [
+      "tear",
+      "rate",
+      "heat",
+      "hate",
+      "hear",
+      "trap",
+      "part",
+      "tape",
+      "rape",
+      "pear",
+      "path",
+      "heap",
+      "they",
+      "type",
+      "pray",
+      "tray",
+      "year",
+      "tyre"
+    ],
+    "5": [
+      "earth",
+      "heart",
+      "party",
+      "repay"
+    ],
+    "6": [
+      "hearty"
+    ]
+  },
+  "thunder": {
+    "3": [
+      "hut",
+      "nut",
+      "ten",
+      "net",
+      "the",
+      "end",
+      "due",
+      "her",
+      "red",
+      "run"
+    ],
+    "4": [
+      "hunt",
+      "tune",
+      "then",
+      "tend",
+      "nude",
+      "rude",
+      "herd",
+      "hurt",
+      "rent",
+      "turn"
+    ],
+    "5": [
+      "trend",
+      "under"
+    ],
+    "6": [
+      "hunter"
+    ]
+  },
+  "towards": {
+    "3": [
+      "two",
+      "raw",
+      "war",
+      "rat",
+      "art",
+      "row",
+      "dot",
+      "rod",
+      "sad",
+      "sat",
+      "saw",
+      "was"
+    ],
+    "4": [
+      "draw",
+      "ward",
+      "road",
+      "word",
+      "sort",
+      "soda",
+      "star"
+    ],
+    "5": [
+      "sword",
+      "worst",
+      "roast",
+      "straw"
+    ],
+    "6": [
+      "toward"
+    ]
+  },
+  "uniform": {
+    "3": [
+      "fun",
+      "fir",
+      "fur",
+      "run",
+      "for",
+      "our",
+      "nor",
+      "rum"
+    ],
+    "4": [
+      "ruin",
+      "four",
+      "iron",
+      "form",
+      "from",
+      "firm"
+    ],
+    "5": [
+      "minor"
+    ],
+    "6": [
+      "inform"
+    ]
+  },
+  "verdict": {
+    "3": [
+      "red",
+      "rid",
+      "die",
+      "ice",
+      "tie"
+    ],
+    "4": [
+      "dive",
+      "ride",
+      "vice",
+      "rice",
+      "tire",
+      "diet",
+      "tide",
+      "dirt"
+    ],
+    "5": [
+      "drive",
+      "tired"
+    ],
+    "6": [
+      "credit",
+      "direct"
+    ]
+  },
+  "version": {
+    "3": [
+      "sir",
+      "one",
+      "nor",
+      "sin",
+      "son"
+    ],
+    "4": [
+      "rise",
+      "rose",
+      "sore",
+      "over",
+      "iron",
+      "vein",
+      "vine",
+      "oven",
+      "nose"
+    ],
+    "5": [
+      "noise",
+      "rinse"
+    ],
+    "6": [
+      "senior"
+    ]
+  },
+  "wealthy": {
+    "3": [
+      "law",
+      "let",
+      "wet",
+      "ate",
+      "eat",
+      "tea",
+      "hat",
+      "the",
+      "yet",
+      "way",
+      "why",
+      "lay"
+    ],
+    "4": [
+      "tale",
+      "late",
+      "heal",
+      "what",
+      "hate",
+      "heat",
+      "they"
+    ],
+    "5": [
+      "whale",
+      "wheat"
+    ],
+    "6": [
+      "wealth"
+    ]
+  },
+  "western": {
+    "3": [
+      "wet",
+      "set",
+      "wee",
+      "see",
+      "new",
+      "net",
+      "ten"
+    ],
+    "4": [
+      "west",
+      "stew",
+      "rest",
+      "tree",
+      "were",
+      "news",
+      "teen",
+      "rent",
+      "went",
+      "nest",
+      "sent"
+    ],
+    "5": [
+      "sweet",
+      "steer",
+      "renew",
+      "enter",
+      "stern",
+      "tense"
+    ],
+    "6": [
+      "resent"
+    ]
+  }
+}
