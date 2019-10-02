@@ -3,7 +3,7 @@ const Trie = require('./helpers/Trie');
 const getAnagrams = require('./helpers/getAnagrams');
 const fs = require('fs');
 
-//set number of letters tp scramble
+//set number of letters to scramble
 //*****************************
 const targetWordLength = 7;
 //*****************************
@@ -15,8 +15,6 @@ const targetWordLength = 7;
 //*****************************
 const gameOptions = {};
 //*****************************
-
-
 
 //create two arrays, one of words with the target number of letters
 //one of all the words less
@@ -31,13 +29,16 @@ initialWordsArr.forEach(word => {
 });
 console.timeEnd('divideArrays');
 console.time('buildTrie');
+
+
 //put all subwords into the Trie
 const trie = new Trie();
 potentialSubWords.forEach(word => trie.add(word));
 console.timeEnd('buildTrie');
+
+
 //this is the bulk of the logic, and the most expensive
 //also the area with the most opportunity for improvement
-
 //for each test word
 //create a list of all the possible combinations of letters
 //check each of those combinations against the words in the trie
@@ -80,6 +81,8 @@ testWords.forEach(word => {
 });
 console.timeEnd('buildGameOptions');
 
+
+//write resulting game object to disk
 console.time('writeFile');
 fs.writeFile('temp.json', JSON.stringify(gameOptions, null, 2), err => {
     if (err) throw err;

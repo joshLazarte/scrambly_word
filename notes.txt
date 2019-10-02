@@ -1,0 +1,144 @@
+best way to put words in trie
+
+what I want to acomplish:
+
+//if there is a better way of doing this, find it
+on initial app load, we will have to iterate over the array of words
+and add each word to the trie
+
+1. give a user 7 random letters
+2. show the user X number of each type of "blank" words
+3. words are 3 letter, 4 letter, 5 letter, 6 letter where possible, 1 7 letter word
+4. at most 15 words(maybe)
+5. once correctly guessing all words, game state is reset
+6. level count is incremented
+6.5 experience points are calculated?
+7. six more letters are given, and play resumes
+
+rules:
+always show six letter words when possible
+at most show two two letter words
+if possible, do not give two letter words
+
+//brute force
+//this is basically the central logic of the game
+//this is what needs to really shine
+//lets find the best way to do this after initial implementation
+assign letters randomly
+once letters are assigned:
+create every possible combination of letters
+compare those letters against the trie dictionary
+get your list of potential words 
+select 12 words out of your potential words
+store those words in memory so as not to duplicate words
+after 200 words, clear memory (maybe)
+
+possibly save game state in local storage so player can resume?
+this would save word cache, level, and current game state
+
+game state:
+
+available letters: arr of letters
+
+currently guessing word: string
+
+//answers
+words: obj {
+twoLetter: arr
+threeLetter: arr
+fourLetter: arr
+fiveLetter: arr
+sixLetter: arr
+}
+
+available letters will be displayed as scrabble tiles at bottom
+as user clicks a tile, it will be highlighted and the letter will
+appear on the currentGuess line
+
+there will be a submit button to check the word against the answers
+
+
+the two key areas to improve will be the initial setup of the trie, and the
+process of selecting the words
+
+
+//************************Word selection Algorithim******************
+//determine usable words / get useable combinations of letters
+find a seven letter word
+seven letter word/letters MUST contain:
+at least 1 6 letter word
+at least 1 5 letter word
+at last 12 (or remainder) 3 and 4 letter words
+
+
+find the seven letter word
+set target word count variable = 14;
+
+do BFS on branch of seven letter word
+starting from level "6" (after you have a seven letter word)
+
+(if there are more than needed, randomize result)
+grab at most two six letter words, decrease target count by num of grabbed words
+
+grab at most two 5 letter words
+
+once you are at level 4
+gather all available four and three letter words
+select enough words to satisify remaining target count, with a four letter word majority
+
+
+links:
+//compressed trie article
+http://stevehanov.ca/blog/?id=120
+
+//compressed trie source code
+https://www.hanovsolutions.com/trie/Bits.js
+
+//initial word database
+http://sherwoodschool.ru/vocabulary/proficiency/
+
+//find if seven letter word is usable
+create algorithim that returns the following object, given a list of letters:
+
+//anagrams algo implementation
+https://codereview.stackexchange.com/questions/57161/generate-all-possible-combinations-of-letters-in-a-word
+
+//heaps algo description
+https://en.wikipedia.org/wiki/Heap's_algorithm
+
+//jumble algo wiki
+https://en.wikipedia.org/wiki/Jumble_algorithm
+
+{
+threeLetter: arrOfWords
+fourLetter: arrOfWords
+fiveLetter: arrOfWords
+sixLetter: arrOfWords
+}
+
+compare resulting object against following parameters
+
+target = 14
+sixL.length > 0
+fiv.length > 0
+three.length + four.length >= target - (six.length + five.length)
+
+if all tests pass, add object to usableWords array with seven letter word as key
+
+
+//algorithim to find all words in given seven letter word
+
+
+for each seven letter word
+create object listed above with each value an empty array
+create all possible combinations of letters
+for each combination
+start traversing Trie
+when you hit word end, push word into appropriate array based on word level
+when you reach the end of the word, move on the the next permutation
+when you exhaust all permutations, run compare against viable word parameters and
+push to usable words or not
+move on to next word 
+
+
+

@@ -45,12 +45,7 @@ class Trie {
     }
 
     findSubWords(word) {
-        const foundWords = {
-            3: [],
-            4: [],
-            5: [],
-            6: []
-        };
+        const foundWords = {};
         let node = this.root;
         let subWord = '';
 
@@ -59,8 +54,8 @@ class Trie {
             if (subWord === word) break;
             if (!node.keys.has(char)) break;
 
-            if (subWord.length > 2 && node.keys.get(char).isEnd()) {
-                foundWords[subWord.length].push(subWord);
+            if (node.keys.get(char).isEnd()) {
+                foundWords[subWord.length] = subWord;
             }
             node = node.keys.get(char);
 
@@ -108,4 +103,4 @@ module.exports = Trie;
 // console.log(myTrie.isWord('doll'));
 // console.log(myTrie.isWord('dorkdsd'));
 // console.log(myTrie.print());
-//console.log(myTrie.findSubWords('landing'));
+// console.log(myTrie.findSubWords('landing'));
