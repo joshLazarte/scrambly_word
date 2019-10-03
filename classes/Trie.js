@@ -23,10 +23,10 @@ class Trie {
         }
         else if (!node.keys.has(input[0])) {
             node.keys.set(input[0], new Node());
-            return this.add(input.substr(1), node.keys.get(input[0]));
+            return this.add(input.substring(1), node.keys.get(input[0]));
         }
         else {
-            return this.add(input.substr(1), node.keys.get(input[0]));
+            return this.add(input.substring(1), node.keys.get(input[0]));
         }
     }
 
@@ -41,7 +41,7 @@ class Trie {
                 word = word.substr(1);
             }
         }
-        return (node.keys.has(word) && node.keys.get(word).isEnd())
+        return (node.keys.has(word) && node.keys.get(word).isEnd());
     }
 
     findSubWords(word) {
@@ -51,7 +51,6 @@ class Trie {
 
         for (let char of word) {
             subWord += char;
-            if (subWord === word) break;
             if (!node.keys.has(char)) break;
 
             if (node.keys.get(char).isEnd()) {
@@ -63,24 +62,32 @@ class Trie {
         return foundWords;
     }
 
-    print() {
-        let words = new Array();
-        let search = function(node, string) {
-            if (node.keys.size != 0) {
-                for (let letter of node.keys.keys()) {
-                    search(node.keys.get(letter), string.concat(letter));
-                }
-                if (node.isEnd()) {
-                    words.push(string);
-                }
-            }
-            else {
-                string.length > 0 ? words.push(string) : undefined;
+
+
+    getSameLengthWords(length) {
+        let words = [];
+
+        const search = (node, nodeCount = 0, str = '') => {
+            if (nodeCount === length) {
+                node.isEnd() && words.push(str);
                 return;
             }
+
+            for (let char of node.keys.keys()) {
+                nodeCount++;
+                str += char;
+                search(node.keys.get(char), nodeCount, str);
+                nodeCount -= 1;
+                str = str.substr(0, str.length - 1);
+            }
         };
-        search(this.root, '');
+
+        search(this.root);
         return words.length > 0 ? words : null;
+    }
+
+    build(arr) {
+        arr.forEach(item => this.add(item));
     }
 
 }
@@ -95,6 +102,11 @@ module.exports = Trie;
 // myTrie.add('dork');
 // myTrie.add('do');
 // myTrie.add('dorm');
+// myTrie.add('door');
+// myTrie.add('dart');
+// myTrie.add('dot');
+// myTrie.add('da');
+// myTrie.add('dumb');
 // myTrie.add('send');
 // myTrie.add('sense');
 // myTrie.add('landing');
@@ -102,5 +114,5 @@ module.exports = Trie;
 
 // console.log(myTrie.isWord('doll'));
 // console.log(myTrie.isWord('dorkdsd'));
-// console.log(myTrie.print());
+// console.log(myTrie.getSameLengthWords(5));
 // console.log(myTrie.findSubWords('landing'));

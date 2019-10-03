@@ -33,7 +33,7 @@ console.time('buildTrie');
 
 //put all subwords into the Trie
 const trie = new Trie();
-potentialSubWords.forEach(word => trie.add(word));
+initialWordsArr.forEach(word => trie.add(word));
 console.timeEnd('buildTrie');
 
 
@@ -51,7 +51,7 @@ testWords.forEach(word => {
     subWords = {};
     subWordKey = 2;
 
-    while (subWordKey < targetWordLength) {
+    while (subWordKey <= targetWordLength) {
         subWords[subWordKey] = new Set();
         subWordKey++;
     }
@@ -59,6 +59,7 @@ testWords.forEach(word => {
     const anagrams = getAnagrams(word);
     anagrams.forEach(anagram => {
         const foundWords = trie.findSubWords(anagram);
+
         for (let key of Object.keys(subWords)) {
             if (foundWords[key]) {
                 subWords[key].add(foundWords[key]);
@@ -66,7 +67,7 @@ testWords.forEach(word => {
         }
     });
 
-    let numWordsToSolve = 14;
+    let numWordsToSolve = 15;
     if (subWords[6].size > 0 &&
         subWords[5].size > 0 &&
         subWords[3].size + subWords[4].size >=
