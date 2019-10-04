@@ -6,13 +6,14 @@ class Rule {
     wordListIsValid(wordList) {
         const bigWordSize = this.letterCount - 1;
         const mediumWordSize = this.letterCount - 2;
-        const numBigWords = wordList[bigWordSize].size;
-        const numMediumWords = wordList[mediumWordSize].size;
+        const numBigWords = wordList.get(bigWordSize).size;
+        const numMediumWords = wordList.get(mediumWordSize).size;
         let smallWordSize = this.letterCount - 3;
         let numSmallWords = 0;
 
-        while (smallWordSize > 1 && smallWordSize >= mediumWordSize - 2) {
-            numSmallWords += wordList[smallWordSize].size;
+
+        while (smallWordSize >= Math.min(...wordList.keys())) {
+            numSmallWords += wordList.get(smallWordSize).size;
             smallWordSize--;
         }
 

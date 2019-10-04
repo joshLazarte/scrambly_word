@@ -8,15 +8,16 @@ class Level extends Rule {
 
         testWords.forEach(testWord => {
             const word = new Word(testWord);
-            let subWords = word.getAllSubwords(this.dictionary);
+            const subWords = word.getAllSubwords(this.dictionary);
+            const options = {};
 
             if (this.wordListIsValid(subWords)) {
-                for (let key of Object.keys(subWords)) {
-                    if (subWords[key].size) {
-                        subWords[key] = [...subWords[key]];
+                for (let [key, val] of subWords) {
+                    if (val.size) {
+                        options[key] = [...val];
                     }
                 }
-                gameOptions[testWord] = subWords;
+                gameOptions[testWord] = options;
             }
         });
 

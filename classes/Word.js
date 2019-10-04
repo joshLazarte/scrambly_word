@@ -30,10 +30,10 @@ class Word {
     }
 
     getAllSubwords(trie) {
-        const subWords = {};
-        let subWordLength = 2;
+        const subWords = new Map();
+        let subWordLength = this.word.length < 6 ? 2 : 3;
         while (subWordLength <= this.word.length) {
-            subWords[subWordLength] = new Set();
+            subWords.set(subWordLength, new Set());
             subWordLength++;
         }
 
@@ -41,9 +41,9 @@ class Word {
 
         anagrams.forEach(anagram => {
             const foundWords = trie.findSubWords(anagram);
-            for (let key of Object.keys(subWords)) {
+            for (let [key, val] of subWords) {
                 if (foundWords[key]) {
-                    subWords[key].add(foundWords[key]);
+                    subWords.set(key, val.add(foundWords[key]));
                 }
             }
         });
@@ -53,12 +53,13 @@ class Word {
 
     getJSONSubwords(trie) {
         const subWords = this.getAllSubwords(trie);
-        for (let key of Object.keys(subWords)) {
-            if (subWords[key].size) {
-                subWords[key] = [...subWords[key]];
+        const options = {};
+        for (let [key, val] of subWords) {
+            if (val.size) {
+                options[key] = [...val];
             }
         }
-        return subWords;
+        return options;
     }
 }
 

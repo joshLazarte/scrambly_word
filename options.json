@@ -1,10 +1,5 @@
 {
   "archives": {
-    "2": [
-      "he",
-      "is",
-      "as"
-    ],
     "3": [
       "arc",
       "car",
@@ -78,11 +73,6 @@
     ]
   },
   "argument": {
-    "2": [
-      "me",
-      "an",
-      "at"
-    ],
     "3": [
       "rag",
       "rug",
@@ -189,10 +179,6 @@
     ]
   },
   "armature": {
-    "2": [
-      "at",
-      "me"
-    ],
     "3": [
       "arm",
       "ram",
@@ -228,7 +214,6 @@
       "rear",
       "rare"
     ],
-    "5": {},
     "6": [
       "trauma",
       "mature"
@@ -241,13 +226,6 @@
     ]
   },
   "absently": {
-    "2": [
-      "as",
-      "be",
-      "an",
-      "at",
-      "by"
-    ],
     "3": [
       "sea",
       "ban",
@@ -336,10 +314,6 @@
     ]
   },
   "alacrity": {
-    "2": [
-      "at",
-      "it"
-    ],
     "3": [
       "arc",
       "car",
@@ -386,7 +360,6 @@
     ]
   },
   "allergic": {
-    "2": {},
     "3": [
       "all",
       "ale",
@@ -455,10 +428,6 @@
     ]
   },
   "allright": {
-    "2": [
-      "it",
-      "at"
-    ],
     "3": [
       "all",
       "ail",
@@ -512,16 +481,6 @@
     ]
   },
   "ancestor": {
-    "2": [
-      "an",
-      "as",
-      "at",
-      "so",
-      "no",
-      "on",
-      "to",
-      "or"
-    ],
     "3": [
       "can",
       "ace",
@@ -647,11 +606,6 @@
     ]
   },
   "athletic": {
-    "2": [
-      "at",
-      "he",
-      "it"
-    ],
     "3": [
       "hat",
       "ale",
@@ -710,16 +664,6 @@
     ]
   },
   "aversion": {
-    "2": [
-      "as",
-      "is",
-      "so",
-      "or",
-      "in",
-      "an",
-      "on",
-      "no"
-    ],
     "3": [
       "ear",
       "are",
@@ -785,11 +729,6 @@
     ]
   },
   "breaking": {
-    "2": [
-      "be",
-      "in",
-      "an"
-    ],
     "3": [
       "bar",
       "bra",
@@ -873,11 +812,6 @@
     ]
   },
   "breather": {
-    "2": [
-      "be",
-      "at",
-      "he"
-    ],
     "3": [
       "bar",
       "bra",
@@ -944,11 +878,6 @@
     ]
   },
   "backseat": {
-    "2": [
-      "as",
-      "be",
-      "at"
-    ],
     "3": [
       "cab",
       "ask",
@@ -1010,10 +939,6 @@
     ]
   },
   "balanced": {
-    "2": [
-      "an",
-      "be"
-    ],
     "3": [
       "lab",
       "ban",
@@ -1075,14 +1000,6 @@
     ]
   },
   "becoming": {
-    "2": [
-      "be",
-      "me",
-      "in",
-      "on",
-      "no",
-      "go"
-    ],
     "3": [
       "mob",
       "ice",
@@ -1126,9 +1043,6 @@
     ]
   },
   "believer": {
-    "2": [
-      "be"
-    ],
     "3": [
       "lie",
       "bee",
@@ -1165,9 +1079,6 @@
     ]
   },
   "beverage": {
-    "2": [
-      "be"
-    ],
     "3": [
       "bee",
       "eve",
@@ -1213,10 +1124,6 @@
     ]
   },
   "captured": {
-    "2": [
-      "at",
-      "up"
-    ],
     "3": [
       "cap",
       "act",
@@ -1314,11 +1221,48 @@
       "captured"
     ]
   },
-  "cardinal": {
-    "2": [
-      "an",
-      "in"
+  "campaign": {
+    "3": [
+      "cap",
+      "map",
+      "aim",
+      "gap",
+      "pig",
+      "man",
+      "pan",
+      "nap",
+      "nip",
+      "pin",
+      "can",
+      "nag",
+      "gin"
     ],
+    "4": [
+      "camp",
+      "pain",
+      "main",
+      "gain",
+      "pang",
+      "ping"
+    ],
+    "5": [
+      "magic",
+      "mania",
+      "panic",
+      "pagan",
+      "again"
+    ],
+    "6": [
+      "maniac"
+    ],
+    "7": [
+      "camping"
+    ],
+    "8": [
+      "campaign"
+    ]
+  },
+  "cardinal": {
     "3": [
       "car",
       "arc",
@@ -1369,10 +1313,6 @@
     ]
   },
   "cartrige": {
-    "2": [
-      "at",
-      "it"
-    ],
     "3": [
       "car",
       "arc",
@@ -1442,12 +1382,6 @@
     ]
   },
   "catering": {
-    "2": [
-      "at",
-      "it",
-      "an",
-      "in"
-    ],
     "3": [
       "cat",
       "act",
@@ -1558,11 +1492,39 @@
       "catering"
     ]
   },
-  "charging": {
-    "2": [
-      "an",
-      "in"
+  "changing": {
+    "3": [
+      "can",
+      "nag",
+      "hag",
+      "gin",
+      "inn",
+      "gag",
+      "gig"
     ],
+    "4": [
+      "hang",
+      "chin",
+      "inch",
+      "gain",
+      "gang"
+    ],
+    "5": [
+      "china",
+      "chain",
+      "aging"
+    ],
+    "6": [
+      "aching"
+    ],
+    "7": [
+      "hanging"
+    ],
+    "8": [
+      "changing"
+    ]
+  },
+  "charging": {
     "3": [
       "car",
       "arc",
@@ -1612,10 +1574,6 @@
     ]
   },
   "charming": {
-    "2": [
-      "an",
-      "in"
-    ],
     "3": [
       "car",
       "arc",
@@ -1679,13 +1637,6 @@
     ]
   },
   "cheating": {
-    "2": [
-      "he",
-      "at",
-      "it",
-      "in",
-      "an"
-    ],
     "3": [
       "ace",
       "tea",
@@ -1770,10 +1721,6 @@
     ]
   },
   "cheering": {
-    "2": [
-      "he",
-      "in"
-    ],
     "3": [
       "her",
       "ice",
@@ -1817,10 +1764,6 @@
     ]
   },
   "clearing": {
-    "2": [
-      "in",
-      "an"
-    ],
     "3": [
       "ace",
       "ale",
@@ -1919,14 +1862,6 @@
     ]
   },
   "comedian": {
-    "2": [
-      "me",
-      "do",
-      "no",
-      "on",
-      "in",
-      "an"
-    ],
     "3": [
       "cod",
       "ice",
@@ -2012,10 +1947,6 @@
     ]
   },
   "complete": {
-    "2": [
-      "me",
-      "to"
-    ],
     "3": [
       "mop",
       "lot",
@@ -2064,11 +1995,6 @@
     ]
   },
   "compress": {
-    "2": [
-      "or",
-      "me",
-      "so"
-    ],
     "3": [
       "mop",
       "pro",
@@ -2115,12 +2041,6 @@
     ]
   },
   "comprise": {
-    "2": [
-      "or",
-      "so",
-      "is",
-      "me"
-    ],
     "3": [
       "mop",
       "pro",
@@ -2188,12 +2108,6 @@
     ]
   },
   "concrete": {
-    "2": [
-      "on",
-      "no",
-      "or",
-      "to"
-    ],
     "3": [
       "con",
       "nor",
@@ -2239,14 +2153,6 @@
     ]
   },
   "confused": {
-    "2": [
-      "on",
-      "no",
-      "of",
-      "so",
-      "us",
-      "do"
-    ],
     "3": [
       "con",
       "fun",
@@ -2303,15 +2209,6 @@
     ]
   },
   "consider": {
-    "2": [
-      "on",
-      "no",
-      "so",
-      "in",
-      "is",
-      "do",
-      "or"
-    ],
     "3": [
       "con",
       "son",
@@ -2388,14 +2285,6 @@
     ]
   },
   "construe": {
-    "2": [
-      "on",
-      "no",
-      "so",
-      "to",
-      "or",
-      "us"
-    ],
     "3": [
       "con",
       "son",
@@ -2495,14 +2384,6 @@
     ]
   },
   "consumer": {
-    "2": [
-      "on",
-      "no",
-      "so",
-      "us",
-      "me",
-      "or"
-    ],
     "3": [
       "con",
       "son",
@@ -2567,17 +2448,49 @@
       "consumer"
     ]
   },
-  "creation": {
-    "2": [
-      "at",
-      "it",
-      "to",
-      "or",
-      "an",
-      "in",
-      "on",
-      "no"
+  "contract": {
+    "3": [
+      "con",
+      "ton",
+      "not",
+      "rot",
+      "nor",
+      "ant",
+      "tan",
+      "can",
+      "act",
+      "cat",
+      "tar",
+      "rat",
+      "art",
+      "arc",
+      "car",
+      "ran",
+      "oar"
     ],
+    "4": [
+      "corn",
+      "torn",
+      "coat",
+      "cart",
+      "rant",
+      "tart"
+    ],
+    "5": [
+      "actor",
+      "acorn"
+    ],
+    "6": [
+      "carton"
+    ],
+    "7": [
+      "contact"
+    ],
+    "8": [
+      "contract"
+    ]
+  },
+  "creation": {
     "3": [
       "arc",
       "car",
@@ -2686,9 +2599,6 @@
     ]
   },
   "creature": {
-    "2": [
-      "at"
-    ],
     "3": [
       "arc",
       "car",
@@ -2749,9 +2659,6 @@
     ]
   },
   "creeping": {
-    "2": [
-      "in"
-    ],
     "3": [
       "pee",
       "per",
@@ -2803,7 +2710,6 @@
     ]
   },
   "crippled": {
-    "2": {},
     "3": [
       "rip",
       "lip",
@@ -2852,13 +2758,6 @@
     ]
   },
   "customer": {
-    "2": [
-      "us",
-      "so",
-      "to",
-      "me",
-      "or"
-    ],
     "3": [
       "cut",
       "out",
@@ -2938,10 +2837,6 @@
     ]
   },
   "daughter": {
-    "2": [
-      "at",
-      "he"
-    ],
     "3": [
       "dug",
       "hug",
@@ -3023,10 +2918,6 @@
     ]
   },
   "delicate": {
-    "2": [
-      "at",
-      "it"
-    ],
     "3": [
       "die",
       "lid",
@@ -3091,7 +2982,6 @@
     ]
   },
   "delivery": {
-    "2": {},
     "3": [
       "die",
       "lid",
@@ -3148,13 +3038,6 @@
     ]
   },
   "democrat": {
-    "2": [
-      "me",
-      "do",
-      "or",
-      "to",
-      "at"
-    ],
     "3": [
       "cod",
       "roe",
@@ -3254,11 +3137,6 @@
     ]
   },
   "diameter": {
-    "2": [
-      "me",
-      "it",
-      "at"
-    ],
     "3": [
       "aid",
       "mid",
@@ -3358,17 +3236,6 @@
     ]
   },
   "discount": {
-    "2": [
-      "is",
-      "so",
-      "do",
-      "us",
-      "no",
-      "on",
-      "in",
-      "it",
-      "to"
-    ],
     "3": [
       "sod",
       "cod",
@@ -3423,9 +3290,6 @@
     ]
   },
   "disperse": {
-    "2": [
-      "is"
-    ],
     "3": [
       "dip",
       "sip",
@@ -3477,10 +3341,6 @@
     ]
   },
   "displace": {
-    "2": [
-      "is",
-      "as"
-    ],
     "3": [
       "dip",
       "sip",
@@ -3577,12 +3437,6 @@
     ]
   },
   "disprove": {
-    "2": [
-      "is",
-      "so",
-      "do",
-      "or"
-    ],
     "3": [
       "dip",
       "sip",
@@ -3652,14 +3506,6 @@
     ]
   },
   "distance": {
-    "2": [
-      "is",
-      "it",
-      "as",
-      "at",
-      "in",
-      "an"
-    ],
     "3": [
       "its",
       "sit",
@@ -3754,12 +3600,6 @@
     ]
   },
   "distract": {
-    "2": [
-      "is",
-      "it",
-      "as",
-      "at"
-    ],
     "3": [
       "its",
       "sit",
@@ -3818,10 +3658,6 @@
     ]
   },
   "divorced": {
-    "2": [
-      "do",
-      "or"
-    ],
     "3": [
       "rod",
       "rid",
@@ -3871,15 +3707,6 @@
     ]
   },
   "doormant": {
-    "2": [
-      "do",
-      "or",
-      "on",
-      "no",
-      "an",
-      "to",
-      "at"
-    ],
     "3": [
       "rod",
       "oar",
@@ -3948,10 +3775,6 @@
     ]
   },
   "dressing": {
-    "2": [
-      "is",
-      "in"
-    ],
     "3": [
       "red",
       "sir",
@@ -4003,15 +3826,44 @@
       "dressing"
     ]
   },
-  "dynamite": {
-    "2": [
-      "an",
-      "my",
-      "in",
-      "it",
-      "at",
-      "me"
+  "dripping": {
+    "3": [
+      "rid",
+      "dip",
+      "rip",
+      "pin",
+      "nip",
+      "din",
+      "rig",
+      "pig",
+      "dig",
+      "gin"
     ],
+    "4": [
+      "drip",
+      "rind",
+      "grip",
+      "grid",
+      "ping",
+      "ding",
+      "grin",
+      "ring"
+    ],
+    "5": [
+      "rigid",
+      "grind"
+    ],
+    "6": [
+      "riding"
+    ],
+    "7": [
+      "dipping"
+    ],
+    "8": [
+      "dripping"
+    ]
+  },
+  "dynamite": {
     "3": [
       "day",
       "and",
@@ -4105,14 +3957,6 @@
     ]
   },
   "enormous": {
-    "2": [
-      "no",
-      "on",
-      "or",
-      "me",
-      "so",
-      "us"
-    ],
     "3": [
       "one",
       "ore",
@@ -4171,10 +4015,6 @@
     ]
   },
   "entangle": {
-    "2": [
-      "an",
-      "at"
-    ],
     "3": [
       "net",
       "ten",
@@ -4230,10 +4070,6 @@
     ]
   },
   "entering": {
-    "2": [
-      "in",
-      "it"
-    ],
     "3": [
       "net",
       "ten",
@@ -4282,14 +4118,6 @@
     ]
   },
   "entrails": {
-    "2": [
-      "at",
-      "an",
-      "in",
-      "it",
-      "as",
-      "is"
-    ],
     "3": [
       "net",
       "ten",
@@ -4426,10 +4254,6 @@
     ]
   },
   "entrance": {
-    "2": [
-      "at",
-      "an"
-    ],
     "3": [
       "net",
       "ten",
@@ -4498,14 +4322,47 @@
       "entrance"
     ]
   },
-  "emigrant": {
-    "2": [
-      "me",
-      "in",
-      "an",
-      "it",
-      "at"
+  "educated": {
+    "3": [
+      "due",
+      "cue",
+      "ace",
+      "cut",
+      "cat",
+      "act",
+      "eat",
+      "ate",
+      "tea",
+      "tee",
+      "add",
+      "dad"
     ],
+    "4": [
+      "duct",
+      "cute",
+      "date",
+      "cede",
+      "dead",
+      "deed"
+    ],
+    "5": [
+      "acute",
+      "cadet",
+      "dated"
+    ],
+    "6": [
+      "deduct",
+      "decade",
+      "deduce"
+    ],
+    "7": [
+      "educate"
+    ],
+    "8": [
+      "educated"
+    ]
+  },
+  "emigrant": {
     "3": [
       "gem",
       "rig",
@@ -4631,10 +4488,6 @@
     ]
   },
   "equality": {
-    "2": [
-      "it",
-      "at"
-    ],
     "3": [
       "ale",
       "ail",
@@ -4676,15 +4529,6 @@
     ]
   },
   "equation": {
-    "2": [
-      "at",
-      "it",
-      "to",
-      "an",
-      "in",
-      "on",
-      "no"
-    ],
     "3": [
       "ate",
       "tea",
@@ -4735,15 +4579,6 @@
     ]
   },
   "eruption": {
-    "2": [
-      "up",
-      "it",
-      "to",
-      "or",
-      "in",
-      "on",
-      "no"
-    ],
     "3": [
       "per",
       "put",
@@ -4840,11 +4675,6 @@
     ]
   },
   "estrange": {
-    "2": [
-      "at",
-      "as",
-      "an"
-    ],
     "3": [
       "set",
       "tar",
@@ -4949,12 +4779,41 @@
       "sergeant"
     ]
   },
-  "examiner": {
-    "2": [
-      "me",
-      "an",
-      "in"
+  "evidence": {
+    "3": [
+      "die",
+      "eve",
+      "din",
+      "den",
+      "end",
+      "ice"
     ],
+    "4": [
+      "dive",
+      "dine",
+      "vine",
+      "vein",
+      "need",
+      "even",
+      "vice",
+      "nice",
+      "cede",
+      "dice"
+    ],
+    "5": [
+      "niece"
+    ],
+    "6": [
+      "device"
+    ],
+    "7": [
+      "deceive"
+    ],
+    "8": [
+      "evidence"
+    ]
+  },
+  "examiner": {
     "3": [
       "axe",
       "aim",
@@ -4986,7 +4845,6 @@
       "mare",
       "mere"
     ],
-    "5": {},
     "6": [
       "marine",
       "remain"
@@ -4999,10 +4857,6 @@
     ]
   },
   "external": {
-    "2": [
-      "at",
-      "an"
-    ],
     "3": [
       "tee",
       "net",
@@ -5073,10 +4927,6 @@
     ]
   },
   "fireball": {
-    "2": [
-      "if",
-      "be"
-    ],
     "3": [
       "fir",
       "fib",
@@ -5148,16 +4998,6 @@
     ]
   },
   "friction": {
-    "2": [
-      "if",
-      "it",
-      "to",
-      "or",
-      "of",
-      "in",
-      "on",
-      "no"
-    ],
     "3": [
       "fir",
       "fit",
@@ -5197,12 +5037,6 @@
     ]
   },
   "frighten": {
-    "2": [
-      "if",
-      "it",
-      "he",
-      "in"
-    ],
     "3": [
       "fir",
       "fig",
@@ -5272,18 +5106,6 @@
     ]
   },
   "fraction": {
-    "2": [
-      "at",
-      "if",
-      "it",
-      "to",
-      "or",
-      "of",
-      "an",
-      "in",
-      "on",
-      "no"
-    ],
     "3": [
       "far",
       "car",
@@ -5356,11 +5178,6 @@
     ]
   },
   "fragment": {
-    "2": [
-      "me",
-      "an",
-      "at"
-    ],
     "3": [
       "far",
       "rag",
@@ -5456,9 +5273,6 @@
     ]
   },
   "flattery": {
-    "2": [
-      "at"
-    ],
     "3": [
       "fat",
       "ale",
@@ -5532,11 +5346,6 @@
     ]
   },
   "fleeting": {
-    "2": [
-      "if",
-      "it",
-      "in"
-    ],
     "3": [
       "elf",
       "fee",
@@ -5594,16 +5403,43 @@
       "fleeting"
     ]
   },
-  "forgiven": {
-    "2": [
-      "of",
-      "or",
-      "go",
-      "if",
-      "no",
-      "on",
-      "in"
+  "flirting": {
+    "3": [
+      "fir",
+      "fit",
+      "lit",
+      "tin",
+      "rig",
+      "fig",
+      "gin"
     ],
+    "4": [
+      "rift",
+      "lift",
+      "lint",
+      "girl",
+      "grit",
+      "gift",
+      "ring",
+      "grin"
+    ],
+    "5": [
+      "flirt",
+      "flint",
+      "fling"
+    ],
+    "6": [
+      "firing",
+      "filing"
+    ],
+    "7": [
+      "lifting"
+    ],
+    "8": [
+      "flirting"
+    ]
+  },
+  "forgiven": {
     "3": [
       "for",
       "fog",
@@ -5664,11 +5500,6 @@
     ]
   },
   "formally": {
-    "2": [
-      "of",
-      "or",
-      "my"
-    ],
     "3": [
       "for",
       "arm",
@@ -5718,12 +5549,6 @@
     ]
   },
   "gelatine": {
-    "2": [
-      "at",
-      "it",
-      "in",
-      "an"
-    ],
     "3": [
       "gel",
       "leg",
@@ -5801,14 +5626,6 @@
     ]
   },
   "generous": {
-    "2": [
-      "no",
-      "on",
-      "go",
-      "or",
-      "so",
-      "us"
-    ],
     "3": [
       "one",
       "ego",
@@ -5862,7 +5679,6 @@
     ]
   },
   "graceful": {
-    "2": {},
     "3": [
       "rag",
       "car",
@@ -5934,9 +5750,6 @@
     ]
   },
   "gardener": {
-    "2": [
-      "an"
-    ],
     "3": [
       "rag",
       "red",
@@ -6002,12 +5815,6 @@
     ]
   },
   "immortal": {
-    "2": [
-      "or",
-      "to",
-      "it",
-      "at"
-    ],
     "3": [
       "mom",
       "rim",
@@ -6062,14 +5869,6 @@
     ]
   },
   "imposter": {
-    "2": [
-      "so",
-      "is",
-      "to",
-      "it",
-      "me",
-      "or"
-    ],
     "3": [
       "mop",
       "sip",
@@ -6178,11 +5977,6 @@
     ]
   },
   "improved": {
-    "2": [
-      "or",
-      "me",
-      "do"
-    ],
     "3": [
       "rim",
       "rip",
@@ -6250,13 +6044,42 @@
       "improved"
     ]
   },
-  "increase": {
-    "2": [
-      "in",
-      "an",
-      "as",
-      "is"
+  "inaction": {
+    "3": [
+      "can",
+      "act",
+      "cat",
+      "tin",
+      "tan",
+      "ant",
+      "ton",
+      "not",
+      "con",
+      "inn"
     ],
+    "4": [
+      "anti",
+      "into",
+      "icon",
+      "coin",
+      "coat"
+    ],
+    "5": [
+      "tonic"
+    ],
+    "6": [
+      "action",
+      "nation",
+      "cannot"
+    ],
+    "7": [
+      "contain"
+    ],
+    "8": [
+      "inaction"
+    ]
+  },
+  "increase": {
     "3": [
       "ice",
       "can",
@@ -6320,11 +6143,6 @@
     ]
   },
   "insecure": {
-    "2": [
-      "in",
-      "is",
-      "us"
-    ],
     "3": [
       "sin",
       "ice",
@@ -6376,14 +6194,6 @@
     ]
   },
   "instance": {
-    "2": [
-      "in",
-      "is",
-      "it",
-      "as",
-      "at",
-      "an"
-    ],
     "3": [
       "sin",
       "tin",
@@ -6451,12 +6261,6 @@
     ]
   },
   "integral": {
-    "2": [
-      "in",
-      "it",
-      "an",
-      "at"
-    ],
     "3": [
       "tin",
       "tie",
@@ -6587,12 +6391,6 @@
     ]
   },
   "interact": {
-    "2": [
-      "in",
-      "it",
-      "an",
-      "at"
-    ],
     "3": [
       "tin",
       "tie",
@@ -6675,12 +6473,6 @@
     ]
   },
   "internal": {
-    "2": [
-      "in",
-      "it",
-      "an",
-      "at"
-    ],
     "3": [
       "tin",
       "tie",
@@ -6771,12 +6563,6 @@
     ]
   },
   "interval": {
-    "2": [
-      "in",
-      "it",
-      "an",
-      "at"
-    ],
     "3": [
       "tin",
       "tie",
@@ -6887,13 +6673,6 @@
     ]
   },
   "intimate": {
-    "2": [
-      "in",
-      "it",
-      "an",
-      "at",
-      "me"
-    ],
     "3": [
       "tin",
       "ant",
@@ -6947,10 +6726,6 @@
     ]
   },
   "intruder": {
-    "2": [
-      "in",
-      "it"
-    ],
     "3": [
       "tin",
       "rut",
@@ -7017,16 +6792,6 @@
     ]
   },
   "investor": {
-    "2": [
-      "in",
-      "is",
-      "it",
-      "so",
-      "no",
-      "on",
-      "to",
-      "or"
-    ],
     "3": [
       "sin",
       "net",
@@ -7108,15 +6873,6 @@
     ]
   },
   "isolated": {
-    "2": [
-      "is",
-      "so",
-      "as",
-      "to",
-      "it",
-      "at",
-      "do"
-    ],
     "3": [
       "oil",
       "ail",
@@ -7222,10 +6978,6 @@
     ]
   },
   "marching": {
-    "2": [
-      "an",
-      "in"
-    ],
     "3": [
       "mar",
       "arm",
@@ -7289,11 +7041,6 @@
     ]
   },
   "magazine": {
-    "2": [
-      "an",
-      "in",
-      "me"
-    ],
     "3": [
       "aim",
       "nag",
@@ -7333,10 +7080,6 @@
     ]
   },
   "massacre": {
-    "2": [
-      "as",
-      "me"
-    ],
     "3": [
       "arc",
       "car",
@@ -7384,11 +7127,6 @@
     ]
   },
   "material": {
-    "2": [
-      "at",
-      "me",
-      "it"
-    ],
     "3": [
       "mat",
       "tea",
@@ -7478,13 +7216,6 @@
     ]
   },
   "monarchy": {
-    "2": [
-      "on",
-      "no",
-      "an",
-      "or",
-      "my"
-    ],
     "3": [
       "man",
       "ran",
@@ -7540,12 +7271,6 @@
     ]
   },
   "meatloaf": {
-    "2": [
-      "me",
-      "at",
-      "to",
-      "of"
-    ],
     "3": [
       "mat",
       "ate",
@@ -7601,12 +7326,6 @@
     ]
   },
   "mechanic": {
-    "2": [
-      "me",
-      "he",
-      "an",
-      "in"
-    ],
     "3": [
       "hem",
       "ham",
@@ -7655,11 +7374,6 @@
     ]
   },
   "migraine": {
-    "2": [
-      "an",
-      "in",
-      "me"
-    ],
     "3": [
       "rim",
       "rig",
@@ -7729,12 +7443,6 @@
     ]
   },
   "minister": {
-    "2": [
-      "in",
-      "is",
-      "it",
-      "me"
-    ],
     "3": [
       "sin",
       "tin",
@@ -7795,11 +7503,6 @@
     ]
   },
   "misplace": {
-    "2": [
-      "is",
-      "as",
-      "me"
-    ],
     "3": [
       "sip",
       "lip",
@@ -7898,15 +7601,6 @@
     ]
   },
   "mistaken": {
-    "2": [
-      "is",
-      "it",
-      "as",
-      "at",
-      "me",
-      "in",
-      "an"
-    ],
     "3": [
       "its",
       "sit",
@@ -8004,16 +7698,6 @@
     ]
   },
   "nominate": {
-    "2": [
-      "no",
-      "on",
-      "in",
-      "an",
-      "to",
-      "at",
-      "it",
-      "me"
-    ],
     "3": [
       "inn",
       "aim",
@@ -8076,13 +7760,6 @@
     ]
   },
   "normally": {
-    "2": [
-      "no",
-      "on",
-      "or",
-      "an",
-      "my"
-    ],
     "3": [
       "nor",
       "arm",
@@ -8131,11 +7808,6 @@
     ]
   },
   "nameless": {
-    "2": [
-      "an",
-      "me",
-      "as"
-    ],
     "3": [
       "man",
       "men",
@@ -8185,13 +7857,45 @@
       "nameless"
     ]
   },
-  "navigate": {
-    "2": [
-      "an",
-      "in",
-      "at",
-      "it"
+  "nautical": {
+    "3": [
+      "tan",
+      "ant",
+      "nut",
+      "tin",
+      "act",
+      "cat",
+      "cut",
+      "can",
+      "lit",
+      "ail"
     ],
+    "4": [
+      "aunt",
+      "tuna",
+      "unit",
+      "anti",
+      "tail",
+      "cult",
+      "nail",
+      "clan",
+      "lint"
+    ],
+    "5": [
+      "until",
+      "canal"
+    ],
+    "6": [
+      "actual"
+    ],
+    "7": [
+      "lunatic"
+    ],
+    "8": [
+      "nautical"
+    ]
+  },
+  "navigate": {
     "3": [
       "van",
       "via",
@@ -8246,13 +7950,38 @@
       "navigate"
     ]
   },
-  "negative": {
-    "2": [
-      "an",
-      "at",
-      "in",
-      "it"
+  "needless": {
+    "3": [
+      "den",
+      "end",
+      "eel",
+      "see"
     ],
+    "4": [
+      "need",
+      "lend",
+      "else",
+      "lens",
+      "sled",
+      "seed",
+      "send",
+      "less"
+    ],
+    "5": [
+      "dense",
+      "sense"
+    ],
+    "6": [
+      "needle"
+    ],
+    "7": [
+      "endless"
+    ],
+    "8": [
+      "needless"
+    ]
+  },
+  "negative": {
     "3": [
       "nag",
       "age",
@@ -8316,14 +8045,6 @@
     ]
   },
   "neurotic": {
-    "2": [
-      "or",
-      "on",
-      "no",
-      "to",
-      "it",
-      "in"
-    ],
     "3": [
       "urn",
       "run",
@@ -8406,15 +8127,6 @@
     ]
   },
   "nitrogen": {
-    "2": [
-      "in",
-      "it",
-      "to",
-      "or",
-      "on",
-      "no",
-      "go"
-    ],
     "3": [
       "tin",
       "rot",
@@ -8474,11 +8186,6 @@
     ]
   },
   "observer": {
-    "2": [
-      "so",
-      "be",
-      "or"
-    ],
     "3": [
       "sob",
       "ore",
@@ -8519,14 +8226,6 @@
     ]
   },
   "ointment": {
-    "2": [
-      "no",
-      "on",
-      "in",
-      "it",
-      "to",
-      "me"
-    ],
     "3": [
       "not",
       "ton",
@@ -8555,7 +8254,6 @@
       "tint",
       "tent"
     ],
-    "5": {},
     "6": [
       "mitten",
       "intent"
@@ -8568,15 +8266,6 @@
     ]
   },
   "optional": {
-    "2": [
-      "to",
-      "it",
-      "in",
-      "on",
-      "no",
-      "at",
-      "an"
-    ],
     "3": [
       "opt",
       "pot",
@@ -8651,14 +8340,6 @@
     ]
   },
   "original": {
-    "2": [
-      "or",
-      "go",
-      "in",
-      "on",
-      "no",
-      "an"
-    ],
     "3": [
       "rig",
       "gin",
@@ -8712,15 +8393,6 @@
     ]
   },
   "ornament": {
-    "2": [
-      "or",
-      "no",
-      "on",
-      "an",
-      "me",
-      "at",
-      "to"
-    ],
     "3": [
       "nor",
       "oar",
@@ -8800,15 +8472,6 @@
     ]
   },
   "outsider": {
-    "2": [
-      "to",
-      "us",
-      "so",
-      "it",
-      "is",
-      "do",
-      "or"
-    ],
     "3": [
       "out",
       "its",
@@ -8891,9 +8554,6 @@
     ]
   },
   "overlive": {
-    "2": [
-      "or"
-    ],
     "3": [
       "roe",
       "ore",
@@ -8934,12 +8594,6 @@
     ]
   },
   "portrait": {
-    "2": [
-      "or",
-      "to",
-      "at",
-      "it"
-    ],
     "3": [
       "pro",
       "top",
@@ -8990,11 +8644,6 @@
     ]
   },
   "producer": {
-    "2": [
-      "or",
-      "do",
-      "up"
-    ],
     "3": [
       "pro",
       "pod",
@@ -9046,10 +8695,6 @@
     ]
   },
   "prophecy": {
-    "2": [
-      "or",
-      "he"
-    ],
     "3": [
       "pro",
       "pop",
@@ -9095,10 +8740,6 @@
     ]
   },
   "practice": {
-    "2": [
-      "at",
-      "it"
-    ],
     "3": [
       "par",
       "rap",
@@ -9184,9 +8825,6 @@
     ]
   },
   "preacher": {
-    "2": [
-      "he"
-    ],
     "3": [
       "per",
       "rap",
@@ -9251,11 +8889,72 @@
       "preacher"
     ]
   },
-  "prestige": {
-    "2": [
-      "is",
-      "it"
+  "preserve": {
+    "3": [
+      "per",
+      "see",
+      "pee",
+      "err",
+      "eve"
     ],
+    "4": [
+      "peer",
+      "ever"
+    ],
+    "5": [
+      "spree",
+      "sever",
+      "serve",
+      "verse"
+    ],
+    "6": [
+      "server",
+      "severe"
+    ],
+    "7": [
+      "reverse",
+      "reserve"
+    ],
+    "8": [
+      "preserve",
+      "perverse"
+    ]
+  },
+  "pressure": {
+    "3": [
+      "per",
+      "sue",
+      "use",
+      "err",
+      "see",
+      "pee"
+    ],
+    "4": [
+      "sure",
+      "ruse",
+      "user",
+      "spur",
+      "pure",
+      "purr",
+      "peer"
+    ],
+    "5": [
+      "press",
+      "super",
+      "purse",
+      "spree"
+    ],
+    "6": [
+      "peruse"
+    ],
+    "7": [
+      "repress"
+    ],
+    "8": [
+      "pressure"
+    ]
+  },
+  "prestige": {
     "3": [
       "per",
       "set",
@@ -9323,10 +9022,43 @@
       "prestige"
     ]
   },
-  "primeval": {
-    "2": [
-      "me"
+  "pretence": {
+    "3": [
+      "per",
+      "pet",
+      "tee",
+      "pee",
+      "net",
+      "ten",
+      "pen"
     ],
+    "4": [
+      "pert",
+      "peer",
+      "tree",
+      "rent",
+      "teen",
+      "cent"
+    ],
+    "5": [
+      "enter",
+      "creep",
+      "erect"
+    ],
+    "6": [
+      "repent",
+      "centre",
+      "center",
+      "recent"
+    ],
+    "7": [
+      "percent"
+    ],
+    "8": [
+      "pretence"
+    ]
+  },
+  "primeval": {
     "3": [
       "rip",
       "rim",
@@ -9419,12 +9151,6 @@
     ]
   },
   "primrose": {
-    "2": [
-      "or",
-      "is",
-      "so",
-      "me"
-    ],
     "3": [
       "rip",
       "rim",
@@ -9478,10 +9204,6 @@
     ]
   },
   "paradise": {
-    "2": [
-      "as",
-      "is"
-    ],
     "3": [
       "par",
       "rap",
@@ -9561,10 +9283,6 @@
     ]
   },
   "particle": {
-    "2": [
-      "at",
-      "it"
-    ],
     "3": [
       "par",
       "rap",
@@ -9696,12 +9414,6 @@
     ]
   },
   "partying": {
-    "2": [
-      "at",
-      "it",
-      "an",
-      "in"
-    ],
     "3": [
       "par",
       "rap",
@@ -9793,9 +9505,6 @@
     ]
   },
   "peculiar": {
-    "2": [
-      "up"
-    ],
     "3": [
       "cup",
       "cue",
@@ -9883,10 +9592,6 @@
     ]
   },
   "pedestal": {
-    "2": [
-      "as",
-      "at"
-    ],
     "3": [
       "pee",
       "see",
@@ -9986,14 +9691,73 @@
       "pedestal"
     ]
   },
-  "platinum": {
-    "2": [
-      "at",
-      "it",
-      "an",
-      "in",
-      "up"
+  "perceive": {
+    "3": [
+      "per",
+      "pee",
+      "ice",
+      "rip",
+      "pie",
+      "eve"
     ],
+    "4": [
+      "peer",
+      "rice",
+      "epic",
+      "ripe",
+      "pier",
+      "ever",
+      "vice"
+    ],
+    "5": [
+      "creep",
+      "price",
+      "piece",
+      "viper"
+    ],
+    "6": [
+      "recipe",
+      "pierce"
+    ],
+    "7": [
+      "receive"
+    ],
+    "8": [
+      "perceive"
+    ]
+  },
+  "perverse": {
+    "3": [
+      "per",
+      "eve",
+      "pee",
+      "err",
+      "see"
+    ],
+    "4": [
+      "peer",
+      "ever"
+    ],
+    "5": [
+      "spree",
+      "sever",
+      "serve",
+      "verse"
+    ],
+    "6": [
+      "server",
+      "severe"
+    ],
+    "7": [
+      "reserve",
+      "reverse"
+    ],
+    "8": [
+      "perverse",
+      "preserve"
+    ]
+  },
+  "platinum": {
     "3": [
       "pal",
       "lap",
@@ -10064,11 +9828,6 @@
     ]
   },
   "pleasant": {
-    "2": [
-      "as",
-      "an",
-      "at"
-    ],
     "3": [
       "lap",
       "pal",
@@ -10163,11 +9922,6 @@
     ]
   },
   "pleasure": {
-    "2": [
-      "as",
-      "up",
-      "us"
-    ],
     "3": [
       "lap",
       "pal",
@@ -10250,15 +10004,6 @@
     ]
   },
   "ravenous": {
-    "2": [
-      "an",
-      "or",
-      "no",
-      "on",
-      "as",
-      "so",
-      "us"
-    ],
     "3": [
       "ear",
       "era",
@@ -10319,16 +10064,6 @@
     ]
   },
   "reaction": {
-    "2": [
-      "at",
-      "it",
-      "to",
-      "or",
-      "an",
-      "in",
-      "on",
-      "no"
-    ],
     "3": [
       "era",
       "are",
@@ -10437,16 +10172,6 @@
     ]
   },
   "relation": {
-    "2": [
-      "at",
-      "it",
-      "to",
-      "or",
-      "an",
-      "in",
-      "on",
-      "no"
-    ],
     "3": [
       "ear",
       "are",
@@ -10561,10 +10286,6 @@
     ]
   },
   "relevant": {
-    "2": [
-      "an",
-      "at"
-    ],
     "3": [
       "eel",
       "eve",
@@ -10649,9 +10370,6 @@
     ]
   },
   "reliable": {
-    "2": [
-      "be"
-    ],
     "3": [
       "lie",
       "ail",
@@ -10705,10 +10423,6 @@
     ]
   },
   "reliance": {
-    "2": [
-      "in",
-      "an"
-    ],
     "3": [
       "lie",
       "ail",
@@ -10773,15 +10487,38 @@
       "reliance"
     ]
   },
-  "restrain": {
-    "2": [
-      "as",
-      "at",
-      "is",
-      "it",
-      "an",
-      "in"
+  "reserved": {
+    "3": [
+      "see",
+      "err",
+      "eve",
+      "red"
     ],
+    "4": [
+      "ever",
+      "seed",
+      "deer",
+      "reed"
+    ],
+    "5": [
+      "sever",
+      "serve",
+      "verse"
+    ],
+    "6": [
+      "server",
+      "severe"
+    ],
+    "7": [
+      "reserve",
+      "reverse",
+      "deserve"
+    ],
+    "8": [
+      "reserved"
+    ]
+  },
+  "restrain": {
     "3": [
       "set",
       "err",
@@ -10867,12 +10604,6 @@
     ]
   },
   "retainer": {
-    "2": [
-      "at",
-      "it",
-      "an",
-      "in"
-    ],
     "3": [
       "ear",
       "are",
@@ -10933,10 +10664,6 @@
     ]
   },
   "reunited": {
-    "2": [
-      "in",
-      "it"
-    ],
     "3": [
       "run",
       "urn",
@@ -11012,14 +10739,6 @@
     ]
   },
   "revision": {
-    "2": [
-      "is",
-      "so",
-      "or",
-      "in",
-      "on",
-      "no"
-    ],
     "3": [
       "sir",
       "ore",
@@ -11060,10 +10779,6 @@
     ]
   },
   "riddance": {
-    "2": [
-      "in",
-      "an"
-    ],
     "3": [
       "rid",
       "add",
@@ -11142,12 +10857,6 @@
     ]
   },
   "sedative": {
-    "2": [
-      "as",
-      "at",
-      "is",
-      "it"
-    ],
     "3": [
       "sea",
       "sad",
@@ -11211,11 +10920,6 @@
     ]
   },
   "sentinel": {
-    "2": [
-      "in",
-      "it",
-      "is"
-    ],
     "3": [
       "set",
       "ten",
@@ -11272,11 +10976,6 @@
     ]
   },
   "sergeant": {
-    "2": [
-      "as",
-      "an",
-      "at"
-    ],
     "3": [
       "see",
       "ear",
@@ -11382,11 +11081,6 @@
     ]
   },
   "settling": {
-    "2": [
-      "it",
-      "is",
-      "in"
-    ],
     "3": [
       "set",
       "let",
@@ -11448,11 +11142,6 @@
     ]
   },
   "spinster": {
-    "2": [
-      "is",
-      "in",
-      "it"
-    ],
     "3": [
       "sip",
       "sin",
@@ -11527,11 +11216,6 @@
     ]
   },
   "sprinter": {
-    "2": [
-      "is",
-      "in",
-      "it"
-    ],
     "3": [
       "sip",
       "sir",
@@ -11605,14 +11289,6 @@
     ]
   },
   "suitable": {
-    "2": [
-      "us",
-      "is",
-      "it",
-      "at",
-      "as",
-      "be"
-    ],
     "3": [
       "sit",
       "its",
@@ -11703,13 +11379,6 @@
     ]
   },
   "superman": {
-    "2": [
-      "us",
-      "up",
-      "me",
-      "as",
-      "an"
-    ],
     "3": [
       "use",
       "sue",
@@ -11797,10 +11466,6 @@
     ]
   },
   "schedule": {
-    "2": [
-      "he",
-      "us"
-    ],
     "3": [
       "she",
       "cue",
@@ -11839,15 +11504,6 @@
     ]
   },
   "shortage": {
-    "2": [
-      "so",
-      "or",
-      "to",
-      "as",
-      "at",
-      "go",
-      "he"
-    ],
     "3": [
       "rot",
       "hot",
@@ -11950,13 +11606,6 @@
     ]
   },
   "singular": {
-    "2": [
-      "is",
-      "in",
-      "us",
-      "an",
-      "as"
-    ],
     "3": [
       "sin",
       "gin",
@@ -12016,10 +11665,6 @@
     ]
   },
   "slightly": {
-    "2": [
-      "is",
-      "it"
-    ],
     "3": [
       "his",
       "lit",
@@ -12060,15 +11705,6 @@
     ]
   },
   "souvenir": {
-    "2": [
-      "so",
-      "us",
-      "no",
-      "on",
-      "in",
-      "is",
-      "or"
-    ],
     "3": [
       "sue",
       "use",
@@ -12126,18 +11762,6 @@
     ]
   },
   "stallion": {
-    "2": [
-      "as",
-      "at",
-      "it",
-      "is",
-      "to",
-      "so",
-      "an",
-      "in",
-      "on",
-      "no"
-    ],
     "3": [
       "sat",
       "all",
@@ -12203,14 +11827,6 @@
     ]
   },
   "starling": {
-    "2": [
-      "as",
-      "at",
-      "it",
-      "is",
-      "an",
-      "in"
-    ],
     "3": [
       "sat",
       "rat",
@@ -12299,11 +11915,6 @@
     ]
   },
   "stranger": {
-    "2": [
-      "at",
-      "as",
-      "an"
-    ],
     "3": [
       "sat",
       "art",
@@ -12383,11 +11994,6 @@
     ]
   },
   "strangle": {
-    "2": [
-      "at",
-      "as",
-      "an"
-    ],
     "3": [
       "sat",
       "art",
@@ -12500,11 +12106,6 @@
     ]
   },
   "stricken": {
-    "2": [
-      "it",
-      "is",
-      "in"
-    ],
     "3": [
       "its",
       "sit",
@@ -12576,15 +12177,6 @@
     ]
   },
   "sturgeon": {
-    "2": [
-      "us",
-      "go",
-      "to",
-      "so",
-      "or",
-      "on",
-      "no"
-    ],
     "3": [
       "rut",
       "rug",
@@ -12676,11 +12268,6 @@
     ]
   },
   "thirteen": {
-    "2": [
-      "it",
-      "he",
-      "in"
-    ],
     "3": [
       "hit",
       "her",
@@ -12729,12 +12316,45 @@
       "thirteen"
     ]
   },
-  "threaten": {
-    "2": [
-      "he",
-      "at",
-      "an"
+  "thorough": {
+    "3": [
+      "hot",
+      "rot",
+      "too",
+      "our",
+      "out",
+      "rut",
+      "hut",
+      "hog",
+      "hug",
+      "gut",
+      "tug",
+      "rug"
     ],
+    "4": [
+      "root",
+      "hoot",
+      "hour",
+      "tour",
+      "hurt",
+      "thug"
+    ],
+    "5": [
+      "ought",
+      "tough",
+      "rough"
+    ],
+    "6": [
+      "though"
+    ],
+    "7": [
+      "through"
+    ],
+    "8": [
+      "thorough"
+    ]
+  },
+  "threaten": {
     "3": [
       "the",
       "her",
@@ -12804,12 +12424,6 @@
     ]
   },
   "triangle": {
-    "2": [
-      "it",
-      "at",
-      "in",
-      "an"
-    ],
     "3": [
       "art",
       "rat",
@@ -12940,12 +12554,6 @@
     ]
   },
   "training": {
-    "2": [
-      "at",
-      "it",
-      "an",
-      "in"
-    ],
     "3": [
       "tar",
       "rat",
@@ -12991,12 +12599,6 @@
     ]
   },
   "tropical": {
-    "2": [
-      "to",
-      "or",
-      "it",
-      "at"
-    ],
     "3": [
       "rot",
       "top",
@@ -13086,13 +12688,6 @@
     ]
   },
   "troubles": {
-    "2": [
-      "to",
-      "or",
-      "be",
-      "so",
-      "us"
-    ],
     "3": [
       "rot",
       "rut",
@@ -13184,10 +12779,6 @@
     ]
   },
   "tapestry": {
-    "2": [
-      "at",
-      "as"
-    ],
     "3": [
       "tap",
       "apt",
@@ -13292,10 +12883,6 @@
     ]
   },
   "teenager": {
-    "2": [
-      "an",
-      "at"
-    ],
     "3": [
       "tee",
       "net",
@@ -13364,13 +12951,6 @@
     ]
   },
   "terminal": {
-    "2": [
-      "me",
-      "it",
-      "in",
-      "an",
-      "at"
-    ],
     "3": [
       "rim",
       "tie",
@@ -13502,11 +13082,6 @@
     ]
   },
   "whatever": {
-    "2": [
-      "at",
-      "we",
-      "he"
-    ],
     "3": [
       "haw",
       "hat",
@@ -13580,10 +13155,6 @@
     ]
   },
   "handling": {
-    "2": [
-      "an",
-      "in"
-    ],
     "3": [
       "had",
       "and",
@@ -13628,11 +13199,6 @@
     ]
   },
   "hardness": {
-    "2": [
-      "an",
-      "he",
-      "as"
-    ],
     "3": [
       "had",
       "and",
@@ -13696,11 +13262,6 @@
     ]
   },
   "harmless": {
-    "2": [
-      "me",
-      "he",
-      "as"
-    ],
     "3": [
       "ham",
       "mar",
@@ -13768,11 +13329,6 @@
     ]
   },
   "heartily": {
-    "2": [
-      "he",
-      "at",
-      "it"
-    ],
     "3": [
       "her",
       "are",
@@ -13866,13 +13422,6 @@
     ]
   },
   "honestly": {
-    "2": [
-      "on",
-      "no",
-      "he",
-      "so",
-      "to"
-    ],
     "3": [
       "hen",
       "one",
@@ -13940,13 +13489,6 @@
     ]
   },
   "languish": {
-    "2": [
-      "an",
-      "in",
-      "us",
-      "as",
-      "is"
-    ],
     "3": [
       "lag",
       "nag",
@@ -13999,11 +13541,6 @@
     ]
   },
   "listener": {
-    "2": [
-      "is",
-      "it",
-      "in"
-    ],
     "3": [
       "lit",
       "its",
@@ -14078,10 +13615,6 @@
     ]
   },
   "literacy": {
-    "2": [
-      "it",
-      "at"
-    ],
     "3": [
       "lit",
       "lie",
@@ -14175,10 +13708,6 @@
     ]
   },
   "literary": {
-    "2": [
-      "it",
-      "at"
-    ],
     "3": [
       "lit",
       "lie",
@@ -14254,12 +13783,6 @@
     ]
   },
   "lonesome": {
-    "2": [
-      "on",
-      "no",
-      "so",
-      "me"
-    ],
     "3": [
       "one",
       "son",
@@ -14302,9 +13825,6 @@
     ]
   },
   "underage": {
-    "2": [
-      "an"
-    ],
     "3": [
       "due",
       "den",
@@ -14379,10 +13899,6 @@
     ]
   },
   "vertical": {
-    "2": [
-      "it",
-      "at"
-    ],
     "3": [
       "tie",
       "ice",
@@ -14476,11 +13992,6 @@
     ]
   },
   "volatile": {
-    "2": [
-      "at",
-      "to",
-      "it"
-    ],
     "3": [
       "vat",
       "lot",
