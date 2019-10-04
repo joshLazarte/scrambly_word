@@ -38,15 +38,16 @@ class Word {
         }
 
         const anagrams = this.getAnagrams();
+        const numAnagrams = anagrams.length;
 
-        anagrams.forEach(anagram => {
-            const foundWords = trie.findSubWords(anagram);
+        for (let i = 0; i < numAnagrams; i++) {
+            const foundWords = trie.findSubWords(anagrams[i]);
             for (let [key, val] of subWords) {
-                if (foundWords[key]) {
-                    subWords.set(key, val.add(foundWords[key]));
+                if (foundWords.has(key)) {
+                    subWords.set(key, val.add(foundWords.get(key)));
                 }
             }
-        });
+        }
 
         return subWords;
     }

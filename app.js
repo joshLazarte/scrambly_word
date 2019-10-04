@@ -5,21 +5,21 @@ const Level = require('./classes/Level');
 const Word = require('./classes/Word');
 const fs = require('fs');
 
-
+console.time('buildDictionary');
 const dictionary = new Trie();
 dictionary.build(initialWordsArr);
-
+console.timeEnd('buildDictionary');
 
 //Get all options for a level
-const newLevel = new Level({ dictionary, letterCount: 7, numWordsToSolve: 15 });
-console.time('getOptions');
-const gameOptions = newLevel.getGameOptions();
-console.timeEnd('getOptions');
+// const newLevel = new Level({ dictionary, letterCount: 7, numWordsToSolve: 15 });
+// console.time('getOptions');
+// const gameOptions = newLevel.getGameOptions();
+// console.timeEnd('getOptions');
 
-fs.writeFile('options.json', JSON.stringify(gameOptions, null, 2), err => {
-    if (err) throw err;
-    console.log('done');
-});
+// fs.writeFile('options.json', JSON.stringify(gameOptions, null, 2), err => {
+//     if (err) throw err;
+//     console.log('done');
+// });
 
 
 //find all the possible words for a given group of letters
@@ -32,5 +32,11 @@ fs.writeFile('options.json', JSON.stringify(gameOptions, null, 2), err => {
 //     console.log('done');
 // });
 
-const used = process.memoryUsage();
-console.log(used);
+// const used = process.memoryUsage();
+// console.log(used);
+
+
+const word = new Word('landing');
+console.time('getAllSubwords');
+word.getJSONSubwords(dictionary);
+console.timeEnd('getAllSubwords');

@@ -45,7 +45,7 @@ class Trie {
     }
 
     findSubWords(word) {
-        const foundWords = {};
+        const foundWords = new Map();
         let node = this.root;
         let subWord = '';
 
@@ -54,7 +54,7 @@ class Trie {
             if (!node.keys.has(char)) break;
 
             if (node.keys.get(char).isEnd()) {
-                foundWords[subWord.length] = subWord;
+                foundWords.set(subWord.length, subWord);
             }
             node = node.keys.get(char);
 
@@ -84,6 +84,24 @@ class Trie {
 
         search(this.root);
         return words.length > 0 ? words : null;
+    }
+
+    findAllSubwords(word) {
+        const subWords = new Map();
+        let subWordLength = this.word.length < 6 ? 2 : 3;
+        while (subWordLength <= this.word.length) {
+            subWords.set(subWordLength, new Set());
+            subWordLength++;
+        }
+
+
+        const moveDown = (str, substr, node) => {
+            if (str.length === 0) return;
+            if (node.isEnd()) {
+                //add to subwords
+
+            }
+        };
     }
 
     build(arr) {
