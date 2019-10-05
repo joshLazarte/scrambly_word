@@ -127,31 +127,22 @@ class Trie {
     return subWords;
   }
 
+  allSubWordsToJSON(word) {
+    const subWords = this.findAllSubwords(word);
+    const JSONSubwords = {};
+
+    for (let [key, val] of subWords) {
+      if (val.size) {
+        JSONSubwords[key] = [...val];
+      }
+    }
+
+    return JSONSubwords;
+  }
+
   build(arr) {
     arr.forEach(item => this.add(item));
   }
 }
 
 module.exports = Trie;
-
-// const myTrie = new Trie();
-// myTrie.add('ball');
-// myTrie.add('bat');
-// myTrie.add('doll');
-// myTrie.add('dork');
-// myTrie.add('do');
-// myTrie.add('dorm');
-// myTrie.add('door');
-// myTrie.add('dart');
-// myTrie.add('dot');
-// myTrie.add('da');
-// myTrie.add('dumb');
-// myTrie.add('send');
-// myTrie.add('sense');
-// myTrie.add('landing');
-// myTrie.add('land');
-
-// console.log(myTrie.isWord('doll'));
-// console.log(myTrie.isWord('dorkdsd'));
-// console.log(myTrie.getSameLengthWords(5));
-// console.log(myTrie.findSubWords('landing'));
