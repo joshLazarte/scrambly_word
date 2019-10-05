@@ -27,12 +27,10 @@ class Level extends Rule {
 
   newGameOptions() {
     const testWords = this.dictionary.getSameLengthWords(this.letterCount);
-    const len = testWords.length;
     const gameOptions = {};
 
-    for (let i = 0; i < len; i++) {
-      const word = new Word(testWords[i]);
-      const subWords = word.newSubwordsAlgo(this.dictionary);
+    testWords.forEach(word => {
+      const subWords = this.dictionary.findAllSubwords(word);
       const options = {};
 
       if (this.wordListIsValid(subWords)) {
@@ -41,9 +39,9 @@ class Level extends Rule {
             options[key] = [...val];
           }
         }
-        gameOptions[testWords[i]] = options;
+        gameOptions[word] = options;
       }
-    }
+    });
 
     return gameOptions;
   }

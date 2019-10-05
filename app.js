@@ -11,19 +11,23 @@ dictionary.build(initialWordsArr);
 console.timeEnd('buildDictionary');
 
 //Get all options for a level
-const newLevel = new Level({ dictionary, letterCount: 7, numWordsToSolve: 15 });
-// console.time('oldAlgo');
-// const gameOptions = newLevel.getGameOptions();
-// console.timeEnd('oldAlgo');
+const newLevel = new Level({
+  dictionary,
+  letterCount: 7,
+  numWordsToSolve: 15
+});
+console.time('oldAlgo');
+const gameOptions = newLevel.getGameOptions();
+console.timeEnd('oldAlgo');
 
 console.time('getOptions');
 const newGameOptions = newLevel.newGameOptions();
 console.timeEnd('getOptions');
 
-fs.writeFile('options.json', JSON.stringify(newGameOptions, null, 2), err => {
-  if (err) throw err;
-  console.log('done');
-});
+// fs.writeFile('options.json', JSON.stringify(newGameOptions, null, 2), err => {
+//   if (err) throw err;
+//   console.log('done');
+// });
 
 //find all the possible words for a given group of letters
 // console.time('unscrambleWord');
@@ -35,14 +39,13 @@ fs.writeFile('options.json', JSON.stringify(newGameOptions, null, 2), err => {
 //   console.log('done');
 // });
 
-// const used = process.memoryUsage();
-// console.log(used);
-
-// const word = new Word('landing');
+const used = process.memoryUsage();
+console.log(used);
 // console.time('getAllSubwords');
+// const word = new Word('apostle');
 // word.getJSONSubwords(dictionary);
 // console.timeEnd('getAllSubwords');
 
-console.time('newSubwords');
-const options = dictionary.findAllSubwords('landing');
-console.timeEnd('newSubwords');
+// console.time('newSubwords');
+// const options = dictionary.findAllSubwords('apostle');
+// console.timeEnd('newSubwords');

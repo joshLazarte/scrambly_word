@@ -89,66 +89,40 @@ class Trie {
     }
 
     const chars = word.split('');
+    const len = chars.length;
 
-    const moveDown = (
-      strObj,
-      foundChars = [],
-      substr = '',
-      node = this.root
-    ) => {
-      if (Object.values(strObj).every(val => val === 0)) {
-        if (node.isEnd()) {
-          if (subWords.has(substr.length)) {
-            const set = subWords.get(substr.length);
-            subWords.set(substr.length, set.add(substr));
-          }
-        }
-        return;
-      }
-
-      if (!node.keys.size) {
-        if (node.isEnd()) {
-          if (subWords.has(substr.length)) {
-            const set = subWords.get(substr.length);
-            subWords.set(substr.length, set.add(substr));
-          }
-        }
-        return;
-      }
+    const moveDown = (strMap, substr = '', node = this.root) => {
+      const shouldEnd = [...strMap.values()].every(val => val === 0);
 
       if (node.isEnd()) {
-        if (subWords.has(substr.length)) {
-          const set = subWords.get(substr.length);
-          subWords.set(substr.length, set.add(substr));
-        }
+        const length = substr.length;
+        subWords.has(length) &&
+          subWords.set(length, subWords.get(length).add(substr));
       }
 
+      if (shouldEnd) return;
+
       for (let key of node.keys.keys()) {
-        if (strObj[key] > 0) {
-          foundChars.push(key);
-          strObj[key] -= 1;
-          substr += key;
-          node.keys.get(key);
-          moveDown(strObj, foundChars, substr, node.keys.get(key));
-          const lastChar = foundChars.pop();
-          strObj[lastChar] += 1;
-          substr = substr.substring(0, substr.length - 1);
+        if (strMap.has(key)) {
+          if (strMap.get(key) > 0) {
+            strMap.set(key, strMap.get(key) - 1);
+            substr += key;
+            moveDown(strMap, substr, node.keys.get(key));
+            strMap.set(key, strMap.get(key) + 1);
+            substr = substr.substring(0, substr.length - 1);
+          }
         }
       }
     };
 
-    chars.forEach(char => {
-      const strObj = {};
+    for (let i = 0; i < len; i++) {
+      const strMap = new Map();
       chars.forEach(c => {
-        if (strObj[c]) {
-          strObj[c] += 1;
-        } else {
-          strObj[c] = 1;
-        }
+        strMap.has(c) ? strMap.set(c, strMap.get(c) + 1) : strMap.set(c, 1);
       });
-
-      moveDown(strObj);
-    });
+      moveDown(strMap);
+      i++;
+    }
 
     return subWords;
   }
