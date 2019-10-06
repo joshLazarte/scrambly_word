@@ -1,13 +1,9 @@
 class Node {
   constructor() {
-    this.keys = new Map();
+    this.children = new Map();
     this.end = false;
-    this.setEnd = function() {
-      this.end = true;
-    };
-    this.isEnd = function() {
-      return this.end;
-    };
+    this.setEnd = () => (this.end = true);
+    this.isEnd = () => this.end;
   }
 }
 
@@ -20,25 +16,25 @@ class Trie {
     if (input.length == 0) {
       node.setEnd();
       return;
-    } else if (!node.keys.has(input[0])) {
-      node.keys.set(input[0], new Node());
-      return this.add(input.substring(1), node.keys.get(input[0]));
+    } else if (!node.children.has(input[0])) {
+      node.children.set(input[0], new Node());
+      return this.add(input.substring(1), node.children.get(input[0]));
     } else {
-      return this.add(input.substring(1), node.keys.get(input[0]));
+      return this.add(input.substring(1), node.children.get(input[0]));
     }
   }
 
   isWord(word) {
     let node = this.root;
     while (word.length > 1) {
-      if (!node.keys.has(word[0])) {
+      if (!node.children.has(word[0])) {
         return false;
       } else {
-        node = node.keys.get(word[0]);
+        node = node.children.get(word[0]);
         word = word.substr(1);
       }
     }
-    return node.keys.has(word) && node.keys.get(word).isEnd();
+    return node.children.has(word) && node.children.get(word).isEnd();
   }
 
   findSubWords(word) {
@@ -48,12 +44,12 @@ class Trie {
 
     for (let char of word) {
       subWord += char;
-      if (!node.keys.has(char)) break;
+      if (!node.children.has(char)) break;
 
-      if (node.keys.get(char).isEnd()) {
+      if (node.children.get(char).isEnd()) {
         foundWords.set(subWord.length, subWord);
       }
-      node = node.keys.get(char);
+      node = node.children.get(char);
     }
     return foundWords;
   }
@@ -67,10 +63,10 @@ class Trie {
         return;
       }
 
-      for (let char of node.keys.keys()) {
+      for (let char of node.children.keys()) {
         nodeCount++;
         str += char;
-        search(node.keys.get(char), nodeCount, str);
+        search(node.children.get(char), nodeCount, str);
         nodeCount -= 1;
         str = str.substr(0, str.length - 1);
       }
@@ -102,12 +98,12 @@ class Trie {
 
       if (shouldEnd) return;
 
-      for (let key of node.keys.keys()) {
+      for (let key of node.children.keys()) {
         if (strMap.has(key)) {
           if (strMap.get(key) > 0) {
             strMap.set(key, strMap.get(key) - 1);
             substr += key;
-            moveDown(strMap, substr, node.keys.get(key));
+            moveDown(strMap, substr, node.children.get(key));
             strMap.set(key, strMap.get(key) + 1);
             substr = substr.substring(0, substr.length - 1);
           }
@@ -115,11 +111,13 @@ class Trie {
       }
     };
 
+    const map = new Map();
+    chars.forEach(c => {
+      map.has(c) ? map.set(c, map.get(c) + 1) : map.set(c, 1);
+    });
+
     for (let i = 0; i < len; i++) {
-      const strMap = new Map();
-      chars.forEach(c => {
-        strMap.has(c) ? strMap.set(c, strMap.get(c) + 1) : strMap.set(c, 1);
-      });
+      const strMap = new Map(map);
       moveDown(strMap);
       i++;
     }

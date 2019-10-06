@@ -6,7 +6,9 @@ const fs = require('fs');
 const dictionary = new Trie();
 dictionary.build(allWords);
 
+console.time('unscramble');
 const subWords = dictionary.allSubWordsToJSON('landing');
+console.timeEnd('unscramble');
 
 fs.writeFile('subwords.json', JSON.stringify(subWords, null, 2), err => {
   if (err) throw err;

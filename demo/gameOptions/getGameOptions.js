@@ -14,7 +14,9 @@ const levelParams = {
 };
 
 const newLevel = new Level(levelParams);
+console.time('getGameOptions');
 const gameOptions = newLevel.getWordOptions();
+console.timeEnd('getGameOptions');
 
 fs.writeFile('gameOptions.json', JSON.stringify(gameOptions, null, 2), err => {
   if (err) throw err;
