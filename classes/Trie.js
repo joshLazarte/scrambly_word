@@ -78,7 +78,7 @@ class Trie {
 
   findAllSubwords(word) {
     const subWords = new Map();
-    let subWordLength = word.length < 6 ? 2 : 3;
+    let subWordLength = 2;
     while (subWordLength <= word.length) {
       subWords.set(subWordLength, new Set());
       subWordLength++;
