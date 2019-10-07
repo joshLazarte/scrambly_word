@@ -11,7 +11,6 @@ class Rule {
         let smallWordSize = this.letterCount - 3;
         let numSmallWords = 0;
 
-
         while (smallWordSize >= Math.min(...wordList.keys())) {
             numSmallWords += wordList.get(smallWordSize).size;
             smallWordSize--;

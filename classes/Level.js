@@ -3,21 +3,12 @@ const Rule = require('./Rule');
 class Level extends Rule {
   getWordOptions() {
     const testWords = this.dictionary.getSameLengthWords(this.letterCount);
-    const gameOptions = {};
+    const gameOptions = [];
 
-    testWords.forEach(word => {
+    for (let word of testWords) {
       const subWords = this.dictionary.findAllSubwords(word);
-      const options = {};
-
-      if (this.wordListIsValid(subWords)) {
-        for (let [key, val] of subWords) {
-          if (val.size) {
-            options[key] = [...val];
-          }
-        }
-        gameOptions[word] = options;
-      }
-    });
+      if (this.wordListIsValid(subWords)) gameOptions.push(word);
+    }
 
     return gameOptions;
   }

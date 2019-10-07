@@ -1,4 +1,3 @@
-const allWords = require('../../word_DB/allWords.json');
 const commonWords = require('../../word_DB/commonWords.json');
 const Trie = require('../../classes/Trie');
 const Level = require('../../classes/Level');
