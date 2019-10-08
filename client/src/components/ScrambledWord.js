@@ -1,11 +1,12 @@
 import React from 'react';
 import Letter from './Letter';
 
-const ScrambledWord = ({ word }) => {
+const ScrambledWord = ({ word, guessLetter }) => {
+
   return (
     <div className='ScrambledWord'>
       {word.map(letter => (
-        <Letter letter={letter} />
+        <Letter letter={letter} guessLetter={guessLetter}/>
       ))}
     </div>
   );
