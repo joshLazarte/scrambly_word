@@ -12,13 +12,13 @@ const images = importAll(
   require.context('../letter_tiles', false, /\.(png|jpe?g|svg)$/)
 );
 
-const Letter = ({ letter, guessLetter }) => {
+const Letter = ({ letter, onClick }) => {
 
   const handleClick = () => {
-    guessLetter(letter)
-  }
+    onClick(letter);
+  };
 
-  return <img alt={letter} src={images[`${letter}.png`]} onClick={guessLetter ? handleClick : null}/>;
+  return <img alt={letter} src={images[`${letter}.png`]} onClick={onClick ? handleClick : null}/>;
 };
 
 export default Letter;

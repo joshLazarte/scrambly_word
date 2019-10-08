@@ -1,8 +1,8 @@
 import React from 'react';
 import Letter from './Letter';
+import uuidv4 from 'uuid/v4';
 
-
-const Guess = ({ guess, wordLength }) => {
+const Guess = ({ guess, wordLength, verifyGuess, removeLetterFromGuess }) => {
     const blankStyle = {
         width: '50px',
         height: '50px',
@@ -10,11 +10,10 @@ const Guess = ({ guess, wordLength }) => {
         border: '1px solid black',
         display: 'inline-block',
         margin: '5px'
-    }
+    };
 
     const getGuess = () => {
         const guessArr = guess.split('');
-        const numBlanks = wordLength - guess.length;
         const currentGuess = [];
 
         for (let i = 0; i < wordLength; i++) {
@@ -26,16 +25,26 @@ const Guess = ({ guess, wordLength }) => {
             }
         }
         return currentGuess;
-    }
+    };
 
     const currentGuess = getGuess();
+
+    const handleClick = () => {
+        verifyGuess(guess);
+    };
+
+    const handleUndoClick = () => {
+        removeLetterFromGuess();
+    };
 
     return (
         <div className="Guess">
         {currentGuess.map(char => (
-        char ? <Letter letter={char}/>
-        : <div style={blankStyle}></div>
+        char ? <Letter key={uuidv4()} letter={char}/>
+        : <div key={uuidv4()} style={blankStyle}></div>
         ))}
+        <button onClick={handleUndoClick}>undo</button>
+        <button onClick={handleClick}>submit</button>
       </div>
     );
 };

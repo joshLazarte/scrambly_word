@@ -10,6 +10,7 @@ const Game = () => {
   const [currentWord, setCurrentWord] = useState('');
   const [currentOptions, setcurrentOptions] = useState({});
   const [guess, setGuess] = useState('');
+  const [scrambledWord, setScrambledWord] = useState([]);
 
   useEffect(() => {
     (async() => {
@@ -20,7 +21,8 @@ const Game = () => {
       const res2 = await axios.get(`/options/${randomWord}`);
       setCurrentWord(randomWord);
       setWordOptions(words.filter(word => word !== randomWord));
-      await setcurrentOptions({ ...res2.data });
+      setcurrentOptions(getAnswers(res2.data));
+      scrambleWord(randomWord);
       setLoading(false);
     })();
   }, []);
@@ -34,22 +36,15 @@ const Game = () => {
       const random = Math.floor(Math.random() * arr.length);
       scrambled.push(arr.splice(random, 1));
     }
-    return scrambled;
+
+
+    setScrambledWord(scrambled);
   };
 
-  const getAnswers = () => {
-    let length = currentWord.length;
-
-    let answers = [...currentOptions[length]];
-    length -= 1;
-    while (length > 1) {
-      if (currentOptions[length]) {
-        answers = [...answers, ...currentOptions[length]];
-      }
-      length--;
-    }
-
-    return answers.map(answer => ({ answer, isSolved: false }));
+  const getAnswers = (optionsObj) => {
+    return [].concat
+      .apply([], Object.values(optionsObj))
+      .map(answer => ({ answer, isSolved: false }));
   };
 
   const guessLetter = (letter) => {
@@ -58,19 +53,47 @@ const Game = () => {
   };
 
 
+  const verifyGuess = currentGuess => {
+    const updated = currentOptions.map(option =>
+      option.answer === currentGuess ? { answer: option.answer, isSolved: true } : option
+    );
+
+    const solved = updated.filter(answer => answer.isSolved);
+    setcurrentOptions(updated);
+    setGuess('');
+    if (solved.length === updated.length) goToNextLevel();
+  };
+
+  const removeLetterFromGuess = letter => {
+    const str = guess.substring(0, guess.length - 1);
+    setGuess(str);
+  };
+
+  const goToNextLevel = async() => {
+    setLoading(true);
+    const randomIndex = Math.floor(Math.random() * wordOptions.length);
+    const randomWord = wordOptions[randomIndex];
+    const newoptions = await axios.get(`/options/${randomWord}`);
+    setCurrentWord(randomWord);
+    setWordOptions(wordOptions.filter(word => word !== randomWord));
+    setcurrentOptions(getAnswers(newoptions.data));
+    scrambleWord(randomWord);
+    setLoading(false);
+  };
+
 
   return (
     <div className='Game'>
       {loading ? 'loading' : (
       <div>
-      {Object.entries(currentOptions).length !== 0 && (
+      {currentOptions.length !== 0 && (
       <div>
-      <Answers answers={getAnswers()}/>
-      <Guess guess={guess} wordLength={currentWord.length}/>
+      <Answers answers={currentOptions}/>
+      <Guess guess={guess} wordLength={currentWord.length} verifyGuess={verifyGuess} removeLetterFromGuess={removeLetterFromGuess}/>
       </div>
       )}
       
-      <ScrambledWord word={scrambleWord(currentWord)} guessLetter={guessLetter}/>
+      <ScrambledWord currentGuess={guess} word={scrambledWord} guessLetter={guessLetter} scrambleWord={scrambleWord}/>
       </div>
       
       )}
