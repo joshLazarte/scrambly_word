@@ -14,14 +14,14 @@ const Game = () => {
 
   useEffect(() => {
     (async() => {
-      const res = await axios.get('/options/5/15');
+      const res = await axios.get('/options/7/15');
       const words = res.data;
       const randomIndex = Math.floor(Math.random() * words.length);
       const randomWord = words[randomIndex];
       const res2 = await axios.get(`/options/${randomWord}`);
       setCurrentWord(randomWord);
       setWordOptions(words.filter(word => word !== randomWord));
-      setcurrentOptions(getAnswers(res2.data));
+      setcurrentOptions(getAnswers(res2.data, randomWord.length));
       scrambleWord(randomWord);
       setLoading(false);
     })();
@@ -41,10 +41,56 @@ const Game = () => {
     setScrambledWord(scrambled);
   };
 
-  const getAnswers = (optionsObj) => {
-    return [].concat
-      .apply([], Object.values(optionsObj))
-      .map(answer => ({ answer, isSolved: false }));
+  const getRandomIndex = arrLength => {
+    return Math.floor(Math.random() * arrLength);
+  };
+
+  const getNumAnswers = length => {
+    const numAnswerOptions = [null,
+      null,
+      null, [4, 5, 6, 7, 8],
+      [4, 5, 6, 7, 8, 9, 10, 11, 12],
+      [5, 6, 7, 8, 9, 10, 11, 12],
+      [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
+      [8, 9, 10, 11, 12, 13, 14, 15, 16]
+    ];
+
+    if (length > 7) return numAnswerOptions[7][getRandomIndex(numAnswerOptions[7])];
+
+    const optionsRange = numAnswerOptions[length];
+    const idx = getRandomIndex(optionsRange.length);
+    return optionsRange[idx];
+  };
+
+  const getAnswers = (optionsObj, length) => {
+    let options = Object.values(optionsObj);
+    let numAnswers = getNumAnswers(length);
+    let answers = [...options.pop()];
+    if (length > 4) options.shift();
+    if (length > 7) options.shift();
+    let i = 0;
+    while (numAnswers > 0 && options.length) {
+      if (i === options.length) i = 0;
+      if (!options[i].length) {
+        options.splice(i, 1);
+      }
+      else {
+        answers.push(options[i].pop());
+        i++;
+        numAnswers--;
+      }
+
+    }
+
+    // let temp = [].concat.apply([], options);
+    // const answers = [];
+
+    // while (numAnswers > 0 && temp.length) {
+    //   answers.push(temp.pop());
+    //   numAnswers--;
+    // }
+
+    return answers.sort().map(answer => ({ answer, isSolved: false }));
   };
 
   const guessLetter = (letter) => {
@@ -76,7 +122,7 @@ const Game = () => {
     const newoptions = await axios.get(`/options/${randomWord}`);
     setCurrentWord(randomWord);
     setWordOptions(wordOptions.filter(word => word !== randomWord));
-    setcurrentOptions(getAnswers(newoptions.data));
+    setcurrentOptions(getAnswers(newoptions.data, randomWord.length));
     scrambleWord(randomWord);
     setLoading(false);
   };
