@@ -1,22 +1,33 @@
 import React from 'react';
 import Letter from './Letter';
-import uuidv4 from 'uuid/v4';
 
 const ScrambledWord = ({ word, guessLetter, currentGuess, scrambleWord }) => {
-  const isDisabled = (letter) => {
-    return currentGuess.indexOf(letter) > -1;
+  const isDisabled = letter => {
+    let disabled = false;
+    currentGuess.forEach(l => {
+      if (l.id === letter.id) {
+        disabled = true;
+      }
+    });
+
+    return disabled;
   };
 
   const handleClick = () => {
-    scrambleWord(word.join(''));
-  }
+    scrambleWord(word);
+  };
 
   return (
     <div className='ScrambledWord'>
       {word.map(letter => (
-        <Letter key={uuidv4()} letter={letter} onClick={isDisabled(letter) ? null : guessLetter}/>
+        <Letter
+          key={letter.id}
+          id={letter.id}
+          letter={letter.letter}
+          onClick={isDisabled(letter) ? null : guessLetter}
+        />
       ))}
-      <button onClick={handleClick} >re-scramble</button>
+      <button onClick={handleClick}>re-scramble</button>
     </div>
   );
 };

@@ -16,5 +16,5 @@ app.set('commonDictionary', commonWords);
 app.use('/descramble', require('./routes/descramble'));
 app.use('/options', require('./routes/gameOptions'));
 
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 8080;
 app.listen(port, () => console.log(`server start on port ${port}`));
