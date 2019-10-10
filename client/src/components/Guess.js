@@ -2,6 +2,8 @@ import React from 'react';
 import Letter from './Letter';
 import uuidv4 from 'uuid/v4';
 
+import './Guess.scss';
+
 const Guess = ({ guess, wordLength, verifyGuess, removeLetterFromGuess }) => {
   const blankStyle = {
     width: '50px',
@@ -28,7 +30,8 @@ const Guess = ({ guess, wordLength, verifyGuess, removeLetterFromGuess }) => {
   const currentGuess = getGuess();
 
   const handleClick = () => {
-    verifyGuess(guess);
+    const guessStr = guess.map(letter => letter.letter).join('');
+    verifyGuess(guessStr);
   };
 
   const handleUndoClick = () => {
@@ -37,15 +40,17 @@ const Guess = ({ guess, wordLength, verifyGuess, removeLetterFromGuess }) => {
 
   return (
     <div className='Guess'>
-      {currentGuess.map(letter =>
-        letter ? (
-          <Letter key={letter.id} letter={letter.letter} id={letter.id} />
-        ) : (
-          <div key={uuidv4()} style={blankStyle}></div>
-        )
-      )}
-      <button onClick={handleUndoClick}>undo</button>
-      <button onClick={handleClick}>submit</button>
+      <div>
+        {currentGuess.map(letter =>
+          letter ? (
+            <Letter key={letter.id} letter={letter.letter} id={letter.id} />
+          ) : (
+            <div key={uuidv4()} style={blankStyle}></div>
+          )
+        )}
+        <button onClick={handleUndoClick}>undo</button>
+        <button onClick={handleClick}>submit</button>
+      </div>
     </div>
   );
 };

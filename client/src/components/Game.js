@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, Fragment } from 'react';
 import axios from 'axios';
 import Answers from './Answers';
 import Guess from './Guess';
@@ -92,7 +92,10 @@ const Game = () => {
       }
     }
 
-    return answers.sort().map(answer => ({ answer, isSolved: false }));
+    return answers
+      .sort()
+      .sort((a, b) => (a.length < b.length ? -1 : 1))
+      .map(answer => ({ answer, isSolved: false }));
   };
 
   const guessLetter = letter => {
@@ -108,11 +111,11 @@ const Game = () => {
 
     const solved = updated.filter(answer => answer.isSolved);
     setcurrentOptions(updated);
-    setGuess('');
+    setGuess([]);
     if (solved.length === updated.length) goToNextLevel();
   };
 
-  const removeLetterFromGuess = letter => {
+  const removeLetterFromGuess = () => {
     const newGuess = guess.splice(0, guess.length - 1);
     setGuess(newGuess);
   };
@@ -138,26 +141,21 @@ const Game = () => {
       {loading ? (
         'loading'
       ) : (
-        <div>
-          {currentOptions.length !== 0 && (
-            <div>
-              <Answers answers={currentOptions} />
-              <Guess
-                guess={guess}
-                wordLength={currentWord.length}
-                verifyGuess={verifyGuess}
-                removeLetterFromGuess={removeLetterFromGuess}
-              />
-            </div>
-          )}
-
+        <Fragment>
+          <Answers answers={currentOptions} />
+          <Guess
+            guess={guess}
+            wordLength={currentWord.length}
+            verifyGuess={verifyGuess}
+            removeLetterFromGuess={removeLetterFromGuess}
+          />
           <ScrambledWord
             currentGuess={guess}
             word={scrambledWord}
             guessLetter={guessLetter}
             scrambleWord={scrambleWord}
           />
-        </div>
+        </Fragment>
       )}
     </div>
   );
