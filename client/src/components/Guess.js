@@ -1,26 +1,20 @@
 import React from 'react';
 import Letter from './Letter';
 import uuidv4 from 'uuid/v4';
+import Button from './Button';
+import Blank from './Blank';
 
 import './Guess.scss';
 
 const Guess = ({ guess, wordLength, verifyGuess, removeLetterFromGuess }) => {
-  const blankStyle = {
-    width: '50px',
-    height: '50px',
-    borderRadius: '10px',
-    border: '1px solid black',
-    display: 'inline-block',
-    margin: '5px'
-  };
-
   const getGuess = () => {
     const currentGuess = [];
 
     for (let i = 0; i < wordLength; i++) {
       if (guess[i]) {
         currentGuess.push(guess[i]);
-      } else {
+      }
+      else {
         currentGuess.push(null);
       }
     }
@@ -45,11 +39,11 @@ const Guess = ({ guess, wordLength, verifyGuess, removeLetterFromGuess }) => {
           letter ? (
             <Letter key={letter.id} letter={letter.letter} id={letter.id} />
           ) : (
-            <div key={uuidv4()} style={blankStyle}></div>
+            <Blank key={uuidv4()} border={'1px solid black'}/>
           )
         )}
-        <button onClick={handleUndoClick}>undo</button>
-        <button onClick={handleClick}>submit</button>
+        <Button icon={'fas fa-undo'} onClick={handleUndoClick} backgroundColor={'#d57500'}/>
+        <Button icon={'fas fa-check'} onClick={handleClick} backgroundColor={'#668d3c'}/>
       </div>
     </div>
   );

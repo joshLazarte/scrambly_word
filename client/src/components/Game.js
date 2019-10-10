@@ -16,7 +16,7 @@ const Game = () => {
 
   useEffect(() => {
     (async() => {
-      const res = await axios.get('/options/7/15');
+      const res = await axios.get('/options/5/8');
       const words = res.data;
       const randomIndex = Math.floor(Math.random() * words.length);
       const randomWord = words[randomIndex];

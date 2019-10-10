@@ -1,4 +1,5 @@
 import React from 'react';
+import './Letter.scss'
 
 const importAll = r => {
   let images = {};
@@ -12,16 +13,19 @@ const images = importAll(
   require.context('../letter_tiles', false, /\.(png|jpe?g|svg)$/)
 );
 
-const Letter = ({ letter, onClick, id }) => {
+const Letter = ({ letter, onClick, id, disabled = true }) => {
   const handleClick = () => {
     onClick({ letter, id });
   };
 
+
   return (
     <img
+      className="Letter"
+      style={{cursor: disabled ? 'not-allowed' : 'pointer'}}
       alt={letter}
       src={images[`${letter}.png`]}
-      onClick={onClick ? handleClick : null}
+      onClick={disabled ? null : handleClick}
     />
   );
 };
