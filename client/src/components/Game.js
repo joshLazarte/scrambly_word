@@ -1,5 +1,6 @@
 import React, { useEffect, useState, Fragment } from 'react';
 import axios from 'axios';
+import Title from './Title';
 import Answers from './Answers';
 import Guess from './Guess';
 import ScrambledWord from './ScrambledWord';
@@ -14,7 +15,7 @@ const Game = () => {
   const [scrambledWord, setScrambledWord] = useState([]);
 
   useEffect(() => {
-    (async () => {
+    (async() => {
       const res = await axios.get('/options/7/15');
       const words = res.data;
       const randomIndex = Math.floor(Math.random() * words.length);
@@ -58,8 +59,7 @@ const Game = () => {
     const numAnswerOptions = [
       null,
       null,
-      null,
-      [4, 5, 6, 7, 8],
+      null, [4, 5, 6, 7, 8],
       [4, 5, 6, 7, 8, 9, 10, 11, 12],
       [5, 6, 7, 8, 9, 10, 11, 12],
       [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
@@ -85,7 +85,8 @@ const Game = () => {
       if (i === options.length) i = 0;
       if (!options[i].length) {
         options.splice(i, 1);
-      } else {
+      }
+      else {
         answers.push(options[i].pop());
         i++;
         numAnswers--;
@@ -104,9 +105,8 @@ const Game = () => {
 
   const verifyGuess = currentGuess => {
     const updated = currentOptions.map(option =>
-      option.answer === currentGuess
-        ? { answer: option.answer, isSolved: true }
-        : option
+      option.answer === currentGuess ? { answer: option.answer, isSolved: true } :
+      option
     );
 
     const solved = updated.filter(answer => answer.isSolved);
@@ -120,7 +120,7 @@ const Game = () => {
     setGuess(newGuess);
   };
 
-  const goToNextLevel = async () => {
+  const goToNextLevel = async() => {
     setLoading(true);
     const randomIndex = Math.floor(Math.random() * wordOptions.length);
     const randomWord = wordOptions[randomIndex];
@@ -138,6 +138,7 @@ const Game = () => {
 
   return (
     <div className='Game'>
+    <Title />
       {loading ? (
         'loading'
       ) : (
