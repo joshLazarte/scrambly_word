@@ -9,8 +9,7 @@ import uuidv4 from 'uuid/v4';
 const ScramblyWord = () => {
   const [loading, setLoading] = useState(true);
   const [wordOptions, setWordOptions] = useState([]);
-  const [currentWord, setCurrentWord] = useState('');
-  const [currentOptions, setcurrentOptions] = useState({});
+  const [answers, setAnswers] = useState(new Map());
   const [guess, setGuess] = useState([]);
   const [scrambledWord, setScrambledWord] = useState([]);
 
@@ -18,41 +17,35 @@ const ScramblyWord = () => {
     (async () => {
       const res = await axios.get('/options/5/8');
       const words = res.data;
-      const randomIndex = Math.floor(Math.random() * words.length);
-      const randomWord = words[randomIndex];
-      const res2 = await axios.get(`/options/${randomWord}`);
-      setCurrentWord(randomWord);
-      setWordOptions(words.filter(word => word !== randomWord));
-      setcurrentOptions(getAnswers(res2.data, randomWord.length));
-
-      const wordArr = randomWord.split('').map(letter => {
-        return { letter };
-      });
-
-      scrambleWord(wordArr);
-      setLoading(false);
+      await initNewLevel(words);
     })();
   }, []);
+
+  const initNewLevel = async words => {
+    const randomWord = words.splice(getRandomIndex(words.length), 1)[0];
+    const res2 = await axios.get(`/options/${randomWord}`);
+    const wordArr = randomWord.split('').map(letter => {
+      return { letter, id: uuidv4() };
+    });
+    setWordOptions(words);
+    setAnswers(getAnswers(res2.data, randomWord.length));
+    scrambleWord(wordArr);
+    setLoading(false);
+  };
+
+  const getRandomIndex = arrLength => {
+    return Math.floor(Math.random() * arrLength);
+  };
 
   const scrambleWord = wordArr => {
     const scrambled = [];
 
     while (wordArr.length) {
       const random = getRandomIndex(wordArr.length);
-      const oldLetter = wordArr.splice(random, 1)[0];
-
-      const letter = {
-        letter: oldLetter.letter,
-        id: oldLetter.id ? oldLetter.id : uuidv4()
-      };
+      const letter = wordArr.splice(random, 1)[0];
       scrambled.push(letter);
     }
-
     setScrambledWord(scrambled);
-  };
-
-  const getRandomIndex = arrLength => {
-    return Math.floor(Math.random() * arrLength);
   };
 
   const getNumAnswers = length => {
@@ -78,7 +71,7 @@ const ScramblyWord = () => {
   const getAnswers = (optionsObj, length) => {
     let options = Object.values(optionsObj);
     let numAnswers = getNumAnswers(length);
-    let answers = [...options.pop()];
+    let answersArr = [...options.pop()];
     if (length > 4) options.shift();
     if (length > 7) options.shift();
     let i = 0;
@@ -87,16 +80,20 @@ const ScramblyWord = () => {
       if (!options[i].length) {
         options.splice(i, 1);
       } else {
-        answers.push(options[i].pop());
+        answersArr.push(options[i].pop());
         i++;
         numAnswers--;
       }
     }
 
-    return answers
+    const answers = new Map();
+
+    answersArr
       .sort()
       .sort((a, b) => (a.length < b.length ? -1 : 1))
-      .map(answer => ({ answer, isSolved: false }));
+      .forEach(a => answers.set(a, false));
+
+    return answers;
   };
 
   const guessLetter = letter => {
@@ -104,16 +101,11 @@ const ScramblyWord = () => {
   };
 
   const verifyGuess = currentGuess => {
-    const updated = currentOptions.map(option =>
-      option.answer === currentGuess
-        ? { answer: option.answer, isSolved: true }
-        : option
-    );
-
-    const solved = updated.filter(answer => answer.isSolved);
-    setcurrentOptions(updated);
+    const updated = new Map(answers);
+    updated.has(currentGuess) && updated.set(currentGuess, true);
+    setAnswers(updated);
     setGuess([]);
-    if (solved.length === updated.length) goToNextLevel();
+    [...updated.values()].every(val => val === true) && goToNextLevel();
   };
 
   const removeLetterFromGuess = () => {
@@ -123,18 +115,7 @@ const ScramblyWord = () => {
 
   const goToNextLevel = async () => {
     setLoading(true);
-    const randomIndex = Math.floor(Math.random() * wordOptions.length);
-    const randomWord = wordOptions[randomIndex];
-    const newoptions = await axios.get(`/options/${randomWord}`);
-    setCurrentWord(randomWord);
-    setWordOptions(wordOptions.filter(word => word !== randomWord));
-    setcurrentOptions(getAnswers(newoptions.data, randomWord.length));
-    const wordArr = randomWord.split('').map(letter => {
-      return { letter };
-    });
-
-    scrambleWord(wordArr);
-    setLoading(false);
+    initNewLevel(wordOptions);
   };
 
   return (
@@ -144,16 +125,16 @@ const ScramblyWord = () => {
         'loading'
       ) : (
         <Fragment>
-          <Answers answers={currentOptions} />
+          <Answers answers={answers} />
           <Guess
             guess={guess}
-            wordLength={currentWord.length}
+            wordLength={scrambledWord.length}
             verifyGuess={verifyGuess}
             removeLetterFromGuess={removeLetterFromGuess}
           />
           <Scrambled
-            currentGuess={guess}
             word={scrambledWord}
+            currentGuess={guess}
             guessLetter={guessLetter}
             scrambleWord={scrambleWord}
           />

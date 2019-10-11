@@ -7,7 +7,6 @@ import './Answer.scss';
 
 const Answer = ({ answer, isSolved }) => {
   const chars = answer.split('');
-
   return (
     <div className='Answer'>
       {chars.map(char =>

@@ -3,7 +3,7 @@ import Letter from '../../display/letter/Letter';
 import Button from '../../display/button/Button';
 import './Scrambled.scss';
 
-const ScrambledWord = ({ word, guessLetter, currentGuess, scrambleWord }) => {
+const Scrambled = ({ word, guessLetter, currentGuess, scrambleWord }) => {
   const isDisabled = letter => {
     let disabled = false;
     currentGuess.forEach(l => {
@@ -41,5 +41,4 @@ const ScrambledWord = ({ word, guessLetter, currentGuess, scrambleWord }) => {
     </div>
   );
 };
-
-export default ScrambledWord;
+export default Scrambled;
