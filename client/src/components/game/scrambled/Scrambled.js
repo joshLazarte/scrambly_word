@@ -1,8 +1,7 @@
 import React from 'react';
-import Letter from './Letter';
-import Button from './Button';
-import './ScrambledWord.scss';
-
+import Letter from '../../display/letter/Letter';
+import Button from '../../display/button/Button';
+import './Scrambled.scss';
 
 const ScrambledWord = ({ word, guessLetter, currentGuess, scrambleWord }) => {
   const isDisabled = letter => {
@@ -33,7 +32,11 @@ const ScrambledWord = ({ word, guessLetter, currentGuess, scrambleWord }) => {
             onClick={guessLetter}
           />
         ))}
-        <Button onClick={handleClick} icon={'fas fa-sync'} backgroundColor={'#855723'}/>
+        <Button
+          onClick={handleClick}
+          icon={'fas fa-sync'}
+          backgroundColor={'#855723'}
+        />
       </div>
     </div>
   );

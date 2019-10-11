@@ -1,5 +1,5 @@
 import React from 'react';
-import './Letter.scss'
+import './Letter.scss';
 
 const importAll = r => {
   let images = {};
@@ -10,7 +10,7 @@ const importAll = r => {
 };
 
 const images = importAll(
-  require.context('../letter_tiles', false, /\.(png|jpe?g|svg)$/)
+  require.context('../../../letter_tiles', false, /\.(png|jpe?g|svg)$/)
 );
 
 const Letter = ({ letter, onClick, id, disabled = true }) => {
@@ -18,11 +18,10 @@ const Letter = ({ letter, onClick, id, disabled = true }) => {
     onClick({ letter, id });
   };
 
-
   return (
     <img
-      className="Letter"
-      style={{cursor: disabled ? 'not-allowed' : 'pointer'}}
+      className='Letter'
+      style={{ cursor: disabled ? 'not-allowed' : 'pointer' }}
       alt={letter}
       src={images[`${letter}.png`]}
       onClick={disabled ? null : handleClick}

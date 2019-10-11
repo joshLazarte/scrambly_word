@@ -1,5 +1,5 @@
 import React from 'react';
-import Answer from './Answer';
+import Answer from '../answer/Answer';
 import uuidv4 from 'uuid/v4';
 
 import './Answers.scss';

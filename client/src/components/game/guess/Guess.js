@@ -1,8 +1,8 @@
 import React from 'react';
-import Letter from './Letter';
+import Letter from '../../display/letter/Letter';
 import uuidv4 from 'uuid/v4';
-import Button from './Button';
-import Blank from './Blank';
+import Button from '../../display/button/Button';
+import Blank from '../../display/blank/Blank';
 
 import './Guess.scss';
 
@@ -13,8 +13,7 @@ const Guess = ({ guess, wordLength, verifyGuess, removeLetterFromGuess }) => {
     for (let i = 0; i < wordLength; i++) {
       if (guess[i]) {
         currentGuess.push(guess[i]);
-      }
-      else {
+      } else {
         currentGuess.push(null);
       }
     }
@@ -39,11 +38,19 @@ const Guess = ({ guess, wordLength, verifyGuess, removeLetterFromGuess }) => {
           letter ? (
             <Letter key={letter.id} letter={letter.letter} id={letter.id} />
           ) : (
-            <Blank key={uuidv4()} border={'1px solid black'}/>
+            <Blank key={uuidv4()} border={'1px solid black'} />
           )
         )}
-        <Button icon={'fas fa-undo'} onClick={handleUndoClick} backgroundColor={'#d57500'}/>
-        <Button icon={'fas fa-check'} onClick={handleClick} backgroundColor={'#668d3c'}/>
+        <Button
+          icon={'fas fa-undo'}
+          onClick={handleUndoClick}
+          backgroundColor={'#d57500'}
+        />
+        <Button
+          icon={'fas fa-check'}
+          onClick={handleClick}
+          backgroundColor={'#668d3c'}
+        />
       </div>
     </div>
   );

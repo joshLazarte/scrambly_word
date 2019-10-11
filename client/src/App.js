@@ -1,11 +1,11 @@
 import React from 'react';
-import Game from './components/Game';
+import ScramblyWord from './components/ScramblyWord';
 import './App.scss';
 
 const App = () => {
   return (
     <div className='App'>
-      <Game />
+      <ScramblyWord />
     </div>
   );
 };

@@ -1,6 +1,6 @@
 import React from 'react';
-import Letter from './Letter';
-import Blank from './Blank';
+import Letter from '../../display/letter/Letter';
+import Blank from '../../display/blank/Blank';
 import uuidv4 from 'uuid/v4';
 
 import './Answer.scss';
@@ -14,7 +14,7 @@ const Answer = ({ answer, isSolved }) => {
         isSolved ? (
           <Letter key={uuidv4()} letter={char} />
         ) : (
-          <Blank key={uuidv4()} backgroundColor={'#8f3b1b'}/>
+          <Blank key={uuidv4()} backgroundColor={'#8f3b1b'} />
         )
       )}
     </div>
