@@ -18,11 +18,10 @@ router.get('/:letterCount/:numWordsToSolve', (req, res) => {
 
     res.header('Content-Type', 'application/json');
     res.send(JSON.stringify(wordOptions, null, 2));
-  }
-  catch (err) {
+  } catch (err) {
+    console.log(err);
     res.json({ error: 'Check endpoint and try again' }).status(400);
   }
-
 });
 
 router.get('/:key', (req, res) => {
@@ -34,12 +33,13 @@ router.get('/:key', (req, res) => {
 
     res.header('Content-Type', 'application/json');
     res.send(JSON.stringify(result, null, 2));
-  }
-  catch (err) {
+  } catch (err) {
     res.json({ error: 'Check endpoint and try again' }).status(400);
   }
 });
 
-router.get('*', (req, res) => res.json({ error: 'Check endpoint and try again' }).status(400));
+router.get('*', (req, res) =>
+  res.json({ error: 'Check endpoint and try again' }).status(400)
+);
 
 module.exports = router;

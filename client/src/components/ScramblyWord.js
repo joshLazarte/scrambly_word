@@ -15,7 +15,7 @@ const ScramblyWord = () => {
 
   useEffect(() => {
     (async () => {
-      const res = await axios.get('/options/5/8');
+      const res = await axios.get('/options/4/9');
       const words = res.data;
       await initNewLevel(words);
     })();
@@ -33,9 +33,7 @@ const ScramblyWord = () => {
     setLoading(false);
   };
 
-  const getRandomIndex = arrLength => {
-    return Math.floor(Math.random() * arrLength);
-  };
+  const getRandomIndex = arrLength => Math.floor(Math.random() * arrLength);
 
   const scrambleWord = wordArr => {
     const scrambled = [];
@@ -49,21 +47,16 @@ const ScramblyWord = () => {
   };
 
   const getNumAnswers = length => {
-    const numAnswerOptions = [
-      null,
-      null,
-      null,
-      [4, 5, 6, 7, 8],
-      [4, 5, 6, 7, 8, 9, 10, 11, 12],
-      [5, 6, 7, 8, 9, 10, 11, 12],
-      [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
-      [8, 9, 10, 11, 12, 13, 14, 15, 16]
-    ];
+    const numAnswerOptions = new Map([
+      [3, [4, 5, 6, 7, 8]],
+      [4, [4, 5, 6, 7, 8, 9, 10, 11, 12]],
+      [5, [4, 5, 6, 7, 8, 9, 10, 11, 12]],
+      [6, [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]],
+      [7, [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]]
+    ]);
 
-    if (length > 7)
-      return numAnswerOptions[7][getRandomIndex(numAnswerOptions[7])];
-
-    const optionsRange = numAnswerOptions[length];
+    if (length > 6) length = 7;
+    const optionsRange = numAnswerOptions.get(length);
     const idx = getRandomIndex(optionsRange.length);
     return optionsRange[idx];
   };
