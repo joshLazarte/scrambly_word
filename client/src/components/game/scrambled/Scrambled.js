@@ -1,6 +1,7 @@
 import React from 'react';
 import Letter from '../../display/letter/Letter';
 import Button from '../../display/button/Button';
+import { createUseStyles } from 'react-jss'
 import './Scrambled.scss';
 
 const Scrambled = ({ word, guessLetter, currentGuess, scrambleWord }) => {
