@@ -1,7 +1,30 @@
-.ScrambledWord {
-  display: flex;
+@mixin on-circle($item-count, $circle-size) {
+  position: relative;
+  width: $circle-size;
+  height: $circle-size;
+  padding: 0;
+  list-style: none;
 
-  div {
-    margin: 2rem auto;
+  >* {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -(5rem / 2);
+
+    $angle: (360 / 4);
+    $rot: 0;
+    $offset: 5deg;
+    @for $i from 1 through $item-count {
+      &:nth-of-type(#{$i}) {
+        transform: rotate($rot * -1deg) translate($circle-size / 2) rotate(($rot * 1deg)+$offset);
+      }
+      $offset: -$offset;
+      $rot: $rot+$angle;
+    }
   }
+}
+
+.ScrambledWord {
+  margin: 5rem auto;
 }
