@@ -15,7 +15,7 @@ const ScramblyWord = () => {
 
   useEffect(() => {
     (async () => {
-      const res = await axios.get('/options/4/9');
+      const res = await axios.get('/options/4/7');
       const words = res.data;
       await initNewLevel(words);
     })();
