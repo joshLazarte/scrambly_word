@@ -1,5 +1,7 @@
 import React from 'react';
 import ScramblyWord from './components/ScramblyWord';
+
+
 import './App.scss';
 
 const App = () => {

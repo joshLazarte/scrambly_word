@@ -63,9 +63,10 @@ const Scrambled = ({ word, guessLetter, currentGuess, scrambleWord }) => {
       <div className={classes.Scrambled}>
         {word.map((letter, i) => (
         <span style={letterStyles[`letter${i}`]}>
-          <Letter
+        <Letter
             key={letter.id}
             id={letter.id}
+            index={i}
             letter={letter.letter}
             disabled={isDisabled(letter)}
             onClick={guessLetter}

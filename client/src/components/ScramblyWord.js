@@ -14,7 +14,7 @@ const ScramblyWord = () => {
   const [scrambledWord, setScrambledWord] = useState([]);
 
   useEffect(() => {
-    (async () => {
+    (async() => {
       const res = await axios.get('/options/4/7');
       const words = res.data;
       await initNewLevel(words);
@@ -72,7 +72,8 @@ const ScramblyWord = () => {
       if (i === options.length) i = 0;
       if (!options[i].length) {
         options.splice(i, 1);
-      } else {
+      }
+      else {
         answersArr.push(options[i].pop());
         i++;
         numAnswers--;
@@ -89,8 +90,13 @@ const ScramblyWord = () => {
     return answers;
   };
 
-  const guessLetter = letter => {
+  const guessLetter = (letter) => {
     setGuess([...guess, letter]);
+
+    //const scrambled = scrambledWord.map(l => l.id === letter.id ? '' : l);
+
+    //setScrambledWord(scrambled);
+    console.log(letter);
   };
 
   const verifyGuess = currentGuess => {
@@ -106,7 +112,7 @@ const ScramblyWord = () => {
     setGuess(newGuess);
   };
 
-  const goToNextLevel = async () => {
+  const goToNextLevel = async() => {
     setLoading(true);
     initNewLevel(wordOptions);
   };
@@ -119,18 +125,20 @@ const ScramblyWord = () => {
       ) : (
         <Fragment>
           <Answers answers={answers} />
-          <Guess
-            guess={guess}
-            wordLength={scrambledWord.length}
-            verifyGuess={verifyGuess}
-            removeLetterFromGuess={removeLetterFromGuess}
-          />
-          <Scrambled
+              <Guess
+                guess={guess}
+                wordLength={scrambledWord.length}
+                verifyGuess={verifyGuess}
+                removeLetterFromGuess={removeLetterFromGuess}
+              />
+              <Scrambled
             word={scrambledWord}
             currentGuess={guess}
             guessLetter={guessLetter}
             scrambleWord={scrambleWord}
           />
+   
+          
         </Fragment>
       )}
     </div>

@@ -13,7 +13,8 @@ const Guess = ({ guess, wordLength, verifyGuess, removeLetterFromGuess }) => {
     for (let i = 0; i < wordLength; i++) {
       if (guess[i]) {
         currentGuess.push(guess[i]);
-      } else {
+      }
+      else {
         currentGuess.push(null);
       }
     }
@@ -33,11 +34,12 @@ const Guess = ({ guess, wordLength, verifyGuess, removeLetterFromGuess }) => {
 
   return (
     <div className='Guess'>
-      <div>
+    <div>
         {currentGuess.map(letter =>
           letter ? (
             <Letter key={letter.id} letter={letter.letter} id={letter.id} />
           ) : (
+          
             <Blank key={uuidv4()} border={'1px solid black'} />
           )
         )}
