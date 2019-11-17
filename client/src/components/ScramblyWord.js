@@ -4,6 +4,8 @@ import Title from './display/title/Title';
 import Answers from './game/answers/Answers';
 import Guess from './game/guess/Guess';
 import Scrambled from './game/scrambled/Scrambled';
+import ProgressTracker from './display/ProgressTracker';
+import SuccessMessage from './display/SuccessMessage';
 import uuidv4 from 'uuid/v4';
 
 const ScramblyWord = () => {
@@ -12,9 +14,11 @@ const ScramblyWord = () => {
   const [answers, setAnswers] = useState(new Map());
   const [guess, setGuess] = useState([]);
   const [scrambledWord, setScrambledWord] = useState([]);
+  const [progress, setProgress] = useState({ rank: 'Beginner', level: 0 });
+  const [showMessage, setShowMessage] = useState(false);
 
   useEffect(() => {
-    (async() => {
+    (async () => {
       const res = await axios.get('/options/4/7');
       const words = res.data;
       await initNewLevel(words);
@@ -30,7 +34,11 @@ const ScramblyWord = () => {
     setWordOptions(words);
     setAnswers(getAnswers(res2.data, randomWord.length));
     scrambleWord(wordArr);
+    setProgress(st => {
+      return { rank: st.rank, level: st.level + 1 };
+    });
     setLoading(false);
+    setTimeout(() => setShowMessage(false), 3000);
   };
 
   const getRandomIndex = arrLength => Math.floor(Math.random() * arrLength);
@@ -72,8 +80,7 @@ const ScramblyWord = () => {
       if (i === options.length) i = 0;
       if (!options[i].length) {
         options.splice(i, 1);
-      }
-      else {
+      } else {
         answersArr.push(options[i].pop());
         i++;
         numAnswers--;
@@ -90,13 +97,12 @@ const ScramblyWord = () => {
     return answers;
   };
 
-  const guessLetter = (letter) => {
+  const guessLetter = letter => {
     setGuess([...guess, letter]);
 
     //const scrambled = scrambledWord.map(l => l.id === letter.id ? '' : l);
 
     //setScrambledWord(scrambled);
-    console.log(letter);
   };
 
   const verifyGuess = currentGuess => {
@@ -112,33 +118,34 @@ const ScramblyWord = () => {
     setGuess(newGuess);
   };
 
-  const goToNextLevel = async() => {
+  const goToNextLevel = async () => {
     setLoading(true);
+    setShowMessage(true);
     initNewLevel(wordOptions);
   };
 
   return (
     <div className='ScramblyWord'>
       <Title />
+      <ProgressTracker rank={progress.rank} level={progress.level} />
+      {showMessage && <SuccessMessage />}
       {loading ? (
         'loading'
       ) : (
         <Fragment>
           <Answers answers={answers} />
-              <Guess
-                guess={guess}
-                wordLength={scrambledWord.length}
-                verifyGuess={verifyGuess}
-                removeLetterFromGuess={removeLetterFromGuess}
-              />
-              <Scrambled
+          <Guess
+            guess={guess}
+            wordLength={scrambledWord.length}
+            verifyGuess={verifyGuess}
+            removeLetterFromGuess={removeLetterFromGuess}
+          />
+          <Scrambled
             word={scrambledWord}
             currentGuess={guess}
             guessLetter={guessLetter}
             scrambleWord={scrambleWord}
           />
-   
-          
         </Fragment>
       )}
     </div>
