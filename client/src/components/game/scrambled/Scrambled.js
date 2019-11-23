@@ -59,26 +59,28 @@ const Scrambled = ({ word, guessLetter, currentGuess, scrambleWord }) => {
   const classes = useStyles({ circleSize: '16rem' });
   const letterStyles = getLetterStyles();
   return (
-    <div >
+    <div>
       <div className={classes.Scrambled}>
-        {word.map((letter, i) => (
-        <span style={letterStyles[`letter${i}`]}>
-        <Letter
-            key={letter.id}
-            id={letter.id}
-            index={i}
-            letter={letter.letter}
-            disabled={isDisabled(letter)}
-            onClick={guessLetter}
-          />
-          </span>
-        ))}
+        {word.map(
+          (letter, i) =>
+            !isDisabled(letter) && (
+              <span style={letterStyles[`letter${i}`]}>
+                <Letter
+                  key={letter.id}
+                  id={letter.id}
+                  index={i}
+                  letter={letter.letter}
+                  onClick={guessLetter}
+                />
+              </span>
+            )
+        )}
       </div>
       <Button
-          onClick={handleClick}
-          icon={'fas fa-sync'}
-          backgroundColor={'#855723'}
-        />
+        onClick={handleClick}
+        icon={'fas fa-sync'}
+        backgroundColor={'#855723'}
+      />
     </div>
   );
 };

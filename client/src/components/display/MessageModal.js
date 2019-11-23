@@ -4,10 +4,8 @@ import { createUseStyles } from 'react-jss';
 import Letter from './letter/Letter';
 import uuidv4 from 'uuid/v4';
 
-const message = ['level', 'completed'];
-
 const useStyles = createUseStyles({
-  SuccessMessage: {
+  MessageModal: {
     zIndex: '999',
     position: 'fixed',
     top: '50%',
@@ -20,20 +18,20 @@ const useStyles = createUseStyles({
   }
 });
 
-const SuccessMessage = () => {
+const MessageModal = ({ message }) => {
+  const msg = message.split(' ');
   const classes = useStyles();
   return (
     <Portal id='success-message'>
-      <div className={classes.SuccessMessage}>
+      <div className={classes.MessageModal}>
+        {msg.map(word => (
+          <h2>
+            {word.split('').map(char => (
+              <Letter key={uuidv4()} letter={char} />
+            ))}
+          </h2>
+        ))}
         <h2>
-          {message[0].split('').map(char => (
-            <Letter key={uuidv4()} letter={char} />
-          ))}
-        </h2>
-        <h2>
-          {message[1].split('').map(char => (
-            <Letter key={uuidv4()} letter={char} />
-          ))}
           <Letter key={uuidv4()} letter={'bang'} />
         </h2>
       </div>
@@ -41,4 +39,4 @@ const SuccessMessage = () => {
   );
 };
 
-export default SuccessMessage;
+export default MessageModal;

@@ -5,17 +5,19 @@ import Answers from './game/answers/Answers';
 import Guess from './game/guess/Guess';
 import Scrambled from './game/scrambled/Scrambled';
 import ProgressTracker from './display/ProgressTracker';
-import SuccessMessage from './display/SuccessMessage';
+import MessageModal from './display/MessageModal';
 import uuidv4 from 'uuid/v4';
 
 const ScramblyWord = () => {
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState({
+    isLoading: true,
+    msg: 'welcome to scramblyword'
+  });
   const [wordOptions, setWordOptions] = useState([]);
   const [answers, setAnswers] = useState(new Map());
   const [guess, setGuess] = useState([]);
   const [scrambledWord, setScrambledWord] = useState([]);
   const [progress, setProgress] = useState({ rank: 'Beginner', level: 0 });
-  const [showMessage, setShowMessage] = useState(false);
 
   useEffect(() => {
     (async () => {
@@ -37,8 +39,7 @@ const ScramblyWord = () => {
     setProgress(st => {
       return { rank: st.rank, level: st.level + 1 };
     });
-    setLoading(false);
-    setTimeout(() => setShowMessage(false), 3000);
+    setTimeout(() => setLoading({ isLoading: false }), 1500);
   };
 
   const getRandomIndex = arrLength => Math.floor(Math.random() * arrLength);
@@ -99,10 +100,6 @@ const ScramblyWord = () => {
 
   const guessLetter = letter => {
     setGuess([...guess, letter]);
-
-    //const scrambled = scrambledWord.map(l => l.id === letter.id ? '' : l);
-
-    //setScrambledWord(scrambled);
   };
 
   const verifyGuess = currentGuess => {
@@ -119,8 +116,7 @@ const ScramblyWord = () => {
   };
 
   const goToNextLevel = async () => {
-    setLoading(true);
-    setShowMessage(true);
+    setLoading({ isLoading: true, msg: 'level completed' });
     initNewLevel(wordOptions);
   };
 
@@ -128,9 +124,8 @@ const ScramblyWord = () => {
     <div className='ScramblyWord'>
       <Title />
       <ProgressTracker rank={progress.rank} level={progress.level} />
-      {showMessage && <SuccessMessage />}
-      {loading ? (
-        'loading'
+      {loading.isLoading ? (
+        <MessageModal message={loading.msg} />
       ) : (
         <Fragment>
           <Answers answers={answers} />
